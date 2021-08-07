@@ -1,3 +1,15 @@
+/* -------------------------------------------------- Root Variables*/
+:root {
+    --PT: 'PT Sans Caption', sans-serif;
+    /* font-family: var(--PT); */
+    --red: #FF4C29;
+    /* color: var(--red); */
+    --navy: #111D5E;
+    /* color: var(--navy); */
+    --white: #ffffff;
+    /* color: var(--white); */
+}
+
 /* ---------------------------------- body */
 body {
     font-family: 'PT Sans Caption', sans-serif;
@@ -22,11 +34,11 @@ nav.active {
 /* ---------------------------------- Nav left */
 a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 a:hover {
-    color: red;
+    color: var(--red);
 }
 
 .large {
@@ -37,7 +49,7 @@ a:hover {
 
 .small {
     font-size: 12px;
-    color: white;
+    color: var(--white);
     opacity: 0.7;
 }
 
@@ -48,7 +60,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: #050e88;
+    background-color: var(--navy);
     transition: 0.8s;
 }
 
@@ -77,8 +89,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: white;
-    transition: 0.8s;
+    background-color: var(--white);
 }
 
 .nav-right.active {
@@ -116,7 +127,7 @@ a:hover {
 }
 
 .contact .heading {
-    color: white;
+    color: var(--white);
 }
 
 /* ---------------------------------- Menu Toggle */
@@ -139,14 +150,14 @@ a:hover {
 }
 
 .menu-toggle span {
-    background: #050e88;
+    background: var(--navy);
     width: 100%;
     height: 5px;
 }
 
 .menu-toggle.active span:nth-child(1) {
     position: absolute;
-    background: #050e88;
+    background: var(--navy);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
@@ -158,7 +169,7 @@ a:hover {
 
 .menu-toggle.active span:nth-child(3) {
     position: absolute;
-    background: #050e88;
+    background: var(--navy);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -170,14 +181,14 @@ a:hover {
     top: 50px;
     left: 5%;
     z-index: 100;
-    color: #050e88;
+    color: var(--navy);
     font-size: 48px;
     pointer-events: none;
     transition: 1s;
 }
 
 .logo.active {
-    color: white;
+    color: var(--white);
 }
 
 /* ----------------------------------  Banner */
