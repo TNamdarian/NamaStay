@@ -1,0 +1,29 @@
+/* ---------------------------------- body */
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------- Navbar left */
+
+a {
+    text-decoration: none;
+    color: #050e88;
+}
+
+a:hover {
+    color: red;
+}
+
+.large {
+    font-size: 36px;
+    font-family: 400;
+    text-transform: uppercase;
+}
+
+.small {
+    font-size: 24px;
+    color: #050e88;
+}
