@@ -113,3 +113,19 @@ nav.active {
     justify-content: space-between;
     list-style: none;
 }
+
+nav-right {
+    position: absolute;
+    z-index: 9;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    transition: 0.8s;
+}
+
+.nav-right.active {
+    left: 50%;
+    transition: 0.5s;
+}
