@@ -129,3 +129,57 @@ nav-right {
     left: 50%;
     transition: 0.5s;
 }
+
+.nav-link {
+    opacity: 0;
+    position: relative;
+    left: -10%;
+}
+
+.nav-link.active {
+    opacity: 1;
+    transition: 0.5s;
+    left: 0;
+}
+
+.contact {
+    position: absolute;
+    opacity: 0;
+    bottom: 10%;
+    left: 0;
+    pointer-events: none;
+
+}
+
+.contact.active {
+    opacity: 1;
+    left: 10%;
+    transition: 0.5s;
+}
+
+/* ---------------------------------- Logo */
+.logo {
+    position: fixed;
+    top: 50px;
+    left: 5%;
+    z-index: 100;
+    color: #050e88;
+    font-size: 36px;
+    pointer-events: none;
+    transition: 1s; //Don't know why this doesn't work
+}
+
+.logo.active {
+    color: rgb(240, 53, 53);
+}
+
+/* ----------------------------------  Banner */
+.banner {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
