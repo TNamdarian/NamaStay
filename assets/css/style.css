@@ -9,10 +9,10 @@
 :root {
     --PT: 'PT Sans Caption', sans-serif;
     /* font-family: var(--PT); */
-    --red: #FF4C29;
-    /* color: var(--red); */
-    --navy: #14274E;
-    /* color: var(--navy); */
+    --orange: #FFA900;
+    /* color: var(--orange); */
+    --purple: #52006A;
+    /* color: var(--purple); */
     --white: #ffffff;
     /* color: var(--white); */
 }
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: var(--red);
+    color: var(--orange);
 }
 
 .large {
@@ -67,7 +67,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--navy);
+    background-color: var(--purple);
     transition: 0.8s;
 }
 
@@ -96,7 +96,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--white);
+    background-color: var(--orange);
 }
 
 .nav-right.active {
@@ -135,6 +135,7 @@ a:hover {
 .contact .heading {
     color: var(--white);
     margin-left: 50px;
+    font-weight: 700;
 }
 
 /* ---------------------------------- Menu Toggle */
@@ -157,14 +158,14 @@ a:hover {
 }
 
 .menu-toggle span {
-    background: var(--navy);
+    background: var(--purple);
     width: 100%;
     height: 5px;
 }
 
 .menu-toggle.active span:nth-child(1) {
     position: absolute;
-    background: var(--navy);
+    background: var(--purple);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
@@ -176,7 +177,7 @@ a:hover {
 
 .menu-toggle.active span:nth-child(3) {
     position: absolute;
-    background: var(--navy);
+    background: var(--purple);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -185,11 +186,11 @@ a:hover {
 /* ---------------------------------- Logo */
 .logo {
     position: fixed;
-    top: 50px;
+    top: 30px;
     left: 5%;
     z-index: 100;
-    color: var(--navy);
-    font-size: 48px;
+    color: var(--purple);
+    font-size: 78px;
     pointer-events: none;
     transition: 1s;
 }
