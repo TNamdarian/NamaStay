@@ -10,4 +10,8 @@ let logo = document.querySelector('.logo');
 //  ..................... Creat event listener 
 menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
+    nav.classList.toggle('active');
+    navRight.classList.toggle('active');
+    navLeft.classList.toggle('active');
+    logo.classList.toggle('active');
 })
