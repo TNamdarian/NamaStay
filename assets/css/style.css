@@ -9,12 +9,14 @@
 :root {
     --PT: 'PT Sans Caption', sans-serif;
     /* font-family: var(--PT); */
-    --orange: #FFA900;
-    /* color: var(--orange); */
+    --green: #5AD4BD;
+    /* color: var(--green); */
     --purple: #52006A;
     /* color: var(--purple); */
     --white: #ffffff;
     /* color: var(--white); */
+    --peach: #FFEAD7;
+    /* color: var(--peach); */
 }
 
 /* ---------------------------------- body */
@@ -45,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: var(--orange);
+    color: var(--green);
 }
 
 .large {
@@ -96,7 +98,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--orange);
+    background-color: var(--peach);
 }
 
 .nav-right.active {
@@ -208,4 +210,13 @@ a:hover {
     align-items: center;
     justify-content: center;
     position: fixed;
+}
+
+.underlay {
+    background: var(--peach);
+}
+
+.banner img {
+    height: 800px;
+    width: 80%;
 }
