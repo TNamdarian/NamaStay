@@ -1,3 +1,4 @@
+// ..................... MenuBar 
 // ..................... Create the selectores
 let menuToggle = document.querySelector('.menu-toggle');
 let nav = document.querySelector('.nav');
