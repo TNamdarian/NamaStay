@@ -6,8 +6,20 @@ body {
     box-sizing: border-box;
 }
 
-/* ---------------------------------- Navbar left */
+/* ---------------------------------- Nav */
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
 
+nav.active {
+    pointer-events: auto;
+}
+
+/* ---------------------------------- Nav left */
 a {
     text-decoration: none;
     color: white;
@@ -24,9 +36,87 @@ a:hover {
 }
 
 .small {
-    font-size: 18px;
+    font-size: 12px;
     color: white;
     opacity: 0.7;
+}
+
+.nav-left {
+    position: relative;
+    z-index: 10;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #050e88;
+    transition: 0.8s;
+}
+
+.nav-left.active {
+    left: 0;
+    transition: 0.5s;
+}
+
+.nav-left ul {
+    position: relative;
+    top: 35%;
+    left: 10%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+/* ---------------------------------- Nav-right */
+.nav-right {
+    position: absolute;
+    z-index: 9;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    transition: 0.8s;
+}
+
+.nav-right.active {
+    left: 50%;
+    transition: 0.5s;
+}
+
+/* ---------------------------------- Nav links */
+.nav-link {
+    opacity: 0;
+    position: relative;
+    left: -10%;
+}
+
+.nav-link.active {
+    opacity: 1;
+    transition: 0.5s;
+    left: 0;
+}
+
+/* ---------------------------------- Conatct */
+.contact {
+    position: absolute;
+    opacity: 0;
+    bottom: 10%;
+    left: 0;
+    pointer-events: none;
+
+}
+
+.contact.active {
+    opacity: 1;
+    left: 10%;
+    transition: 0.5s;
+}
+
+.contact .heading {
+    color: white;
 }
 
 /* ---------------------------------- Menu Toggle */
@@ -74,89 +164,6 @@ a:hover {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-/* ---------------------------------- Nav */
-nav {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    z-index: 10;
-    pointer-events: none;
-}
-
-nav.active {
-    pointer-events: auto;
-}
-
-.nav-left {
-    position: relative;
-    z-index: 10;
-    left: -50%;
-    top: 0;
-    width: 50%;
-    height: 100vh;
-    background-color: #050e88;
-    transition: 0.8s;
-}
-
-.nav-left.active {
-    left: 0;
-    transition: 0.5s;
-}
-
-.nav-left ul {
-    position: relative;
-    top: 35%;
-    left: 10%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.nav-right {
-    position: absolute;
-    z-index: 9;
-    left: -50%;
-    top: 0;
-    width: 50%;
-    height: 100vh;
-    background-color: red;
-    transition: 0.8s;
-}
-
-.nav-right.active {
-    left: 50%;
-    transition: 0.5s;
-}
-
-.nav-link {
-    opacity: 0;
-    position: relative;
-    left: -10%;
-}
-
-.nav-link.active {
-    opacity: 1;
-    transition: 0.5s;
-    left: 0;
-}
-
-.contact {
-    position: absolute;
-    opacity: 0;
-    bottom: 10%;
-    left: 0;
-    pointer-events: none;
-
-}
-
-.contact.active {
-    opacity: 1;
-    left: 10%;
-    transition: 0.5s;
-}
-
 /* ---------------------------------- Logo */
 .logo {
     position: fixed;
@@ -164,14 +171,13 @@ nav.active {
     left: 5%;
     z-index: 100;
     color: #050e88;
-    font-size: 36px;
+    font-size: 48px;
     pointer-events: none;
     transition: 1s;
-    /* transition doesn't seem to work */
 }
 
 .logo.active {
-    color: rgb(240, 53, 53);
+    color: white;
 }
 
 /* ----------------------------------  Banner */
