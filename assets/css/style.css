@@ -102,3 +102,43 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
+
+/* ---------------------------------- Nav */
+nav {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+nav.active {
+    pointer-events: auto;
+}
+
+.nav-left {
+    position: relative;
+    z-index: 10;
+    left: -50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #050e88;
+    transition: 0.8s;
+}
+
+.nav-left.active {
+    left: 0;
+    transition: 0.5s;
+}
+
+.nav-left ul {
+    position: relative;
+    top: 35%;
+    left: 10%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
