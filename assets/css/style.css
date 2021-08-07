@@ -114,7 +114,7 @@ nav.active {
     list-style: none;
 }
 
-nav-right {
+.nav-right {
     position: absolute;
     z-index: 9;
     left: -50%;
@@ -166,7 +166,8 @@ nav-right {
     color: #050e88;
     font-size: 36px;
     pointer-events: none;
-    transition: 1s; //Don't know why this doesn't work
+    transition: 1s;
+    /* transition doesn't seem to work */
 }
 
 .logo.active {
