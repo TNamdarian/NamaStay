@@ -49,7 +49,7 @@ a {
 }
 
 a:hover {
-    color: var(--lightgreen);
+    color: var(--peach);
 }
 
 .large {
@@ -201,7 +201,7 @@ a:hover {
 }
 
 .logo.active {
-    color: var(--white);
+    color: var(--peach);
 }
 
 /* ----------------------------------  Banner */
