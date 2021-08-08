@@ -15,7 +15,9 @@
     /* color: var(--darkgreen); */
     --white: #ffffff;
     /* color: var(--white); */
-    --peach: #E8B8A4;
+    --cream: #E8B8A4;
+    /* color: var(--cream); */
+    --peach: #CE6C51;
     /* color: var(--peach); */
 }
 
@@ -98,7 +100,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--peach);
+    background-color: var(--cream);
     opacity: 0.5;
 }
 
@@ -219,15 +221,20 @@ a:hover {
     left: 60px;
     top: 400px;
     color: var(--darkgreen);
-
 }
 
 .btn-begin {
     position: relative;
     left: 60px;
     top: 450px;
-    color: var(--darkgreen);
     background-color: var(--lightgreen);
     border-color: var(--lightgreen);
+    color: var(--darkgreen);
     font-size: 24px;
+}
+
+.btn-begin:hover {
+    border-color: var(--peach);
+    background-color: var(--peach);
+    color: var(--white);
 }
