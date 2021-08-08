@@ -244,7 +244,7 @@ a:hover {
     .logo {
         padding-left: 50px;
         font-size: 24px;
-        padding-top: 30px;
+        padding-top: 10px;
         padding-left: 30px;
     }
 
@@ -260,7 +260,38 @@ a:hover {
     }
 
     .banner img {
-        height: 50vh;
-        width: 50%;
+        height: 400px;
+        width: 200px;
+        position: relative;
+        top: 100px;
+        left: 0;
+    }
+
+    .underlay {
+        height: 630px;
+    }
+
+    .menu-toggle {
+        top: 2rem;
+    }
+
+    .large {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .small {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .nav-left ul {
+        left: 0;
+        height: 0;
+    }
+
+    .contact,
+    .heading {
+        left: 0;
     }
 }
