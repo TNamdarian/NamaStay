@@ -9,13 +9,13 @@
 :root {
     --PT: 'PT Sans Caption', sans-serif;
     /* font-family: var(--PT); */
-    --green: #5AD4BD;
+    --green: #84B4B4;
     /* color: var(--green); */
-    --purple: #52006A;
+    --purple: #043637;
     /* color: var(--purple); */
     --white: #ffffff;
     /* color: var(--white); */
-    --peach: #FFEAD7;
+    --peach: #E8B8A4;
     /* color: var(--peach); */
 }
 
@@ -99,6 +99,7 @@ a:hover {
     width: 50%;
     height: 100vh;
     background-color: var(--peach);
+    opacity: 0.5;
 }
 
 .nav-right.active {
@@ -205,15 +206,11 @@ a:hover {
 
 
 .underlay {
-    background: var(--peach);
+    background: #E8B8A4;
+    height: 100vh;
 }
 
 .banner img {
-    height: 600px;
-    width: 50%;
-    position: relative;
-    left: 500px;
-    top: 150px;
-    ;
-
+    height: 100vh;
+    width: 100%;
 }
