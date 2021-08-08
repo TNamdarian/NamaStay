@@ -9,10 +9,10 @@
 :root {
     --PT: 'PT Sans Caption', sans-serif;
     /* font-family: var(--PT); */
-    --green: #84B4B4;
-    /* color: var(--green); */
-    --purple: #043637;
-    /* color: var(--purple); */
+    --lightgreen: #84B4B4;
+    /* color: var(--lightgreen); */
+    --darkgreen: #043637;
+    /* color: var(--darkgreen); */
     --white: #ffffff;
     /* color: var(--white); */
     --peach: #E8B8A4;
@@ -47,7 +47,7 @@ a {
 }
 
 a:hover {
-    color: var(--green);
+    color: var(--lightgreen);
 }
 
 .large {
@@ -69,7 +69,7 @@ a:hover {
     top: 0;
     width: 50%;
     height: 100vh;
-    background-color: var(--purple);
+    background-color: var(--darkgreen);
     transition: 0.8s;
 }
 
@@ -161,14 +161,14 @@ a:hover {
 }
 
 .menu-toggle span {
-    background: var(--purple);
+    background: var(--darkgreen);
     width: 100%;
     height: 5px;
 }
 
 .menu-toggle.active span:nth-child(1) {
     position: absolute;
-    background: var(--purple);
+    background: var(--darkgreen);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
@@ -180,7 +180,7 @@ a:hover {
 
 .menu-toggle.active span:nth-child(3) {
     position: absolute;
-    background: var(--purple);
+    background: var(--darkgreen);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -192,7 +192,7 @@ a:hover {
     top: 30px;
     left: 5%;
     z-index: 100;
-    color: var(--purple);
+    color: var(--darkgreen);
     font-size: 78px;
     pointer-events: none;
     transition: 1s;
@@ -204,7 +204,6 @@ a:hover {
 
 /* ----------------------------------  Banner */
 
-
 .underlay {
     background: #E8B8A4;
     height: 100vh;
@@ -213,4 +212,22 @@ a:hover {
 .banner img {
     height: 100vh;
     width: 100%;
+}
+
+.motto {
+    position: relative;
+    left: 60px;
+    top: 400px;
+    color: var(--darkgreen);
+
+}
+
+.btn-begin {
+    position: relative;
+    left: 60px;
+    top: 450px;
+    color: var(--darkgreen);
+    background-color: var(--lightgreen);
+    border-color: var(--lightgreen);
+    font-size: 24px;
 }
