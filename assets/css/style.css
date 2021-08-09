@@ -219,7 +219,7 @@ nav.active {
 .logo {
     position: absolute;
     top: 30px;
-    left: 40px;
+    left: 65px;
     z-index: 100;
     color: var(--darkgreen);
     pointer-events: none;
@@ -229,6 +229,7 @@ nav.active {
 
 .logo.active {
     color: var(--peach);
+    position: fixed;
 }
 
 .logo h1 {
