@@ -5,6 +5,30 @@
     text-transform: uppercase;
 }
 
+.white-section {
+    background-color: var(--bgWhite);
+}
+
+.peach-section {
+    background-color: var(--peach);
+}
+
+.cream-section {
+    background-color: var(--cream);
+}
+
+.light-green-section {
+    background-color: var(--lightgreen);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text.center {
+    text-align: var(--center);
+}
+
 /* -------------------------------------------------- Root Variables*/
 :root {
     --PT: 'PT Sans Caption', sans-serif;
@@ -15,10 +39,14 @@
     /* color: var(--darkgreen); */
     --white: #ffffff;
     /* color: var(--white); */
+    --bgWhite: #FEF9F3;
+    /* color: var(--bgWhite); */
     --cream: #E8B8A4;
     /* color: var(--cream); */
     --peach: #CE6C51;
     /* color: var(--peach); */
+    --orange: #FDA951;
+    /* color: var(--orange); */
 }
 
 /* ---------------------------------- body */
@@ -27,11 +55,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* ---------------------------------- container-fluid */
-.container-fluid {
-    background-color: var(--cream);
 }
 
 /* ---------------------------------- Nav */
@@ -95,7 +118,6 @@ nav.active {
     justify-content: space-between;
     list-style: none;
 }
-
 
 /* ---------------------------------- Nav-right */
 .nav-right {
@@ -195,9 +217,9 @@ nav.active {
 
 /* ---------------------------------- Logo */
 .logo {
-    position: fixed;
+    position: absolute;
     top: 30px;
-    left: 5%;
+    left: 50px;
     z-index: 100;
     color: var(--darkgreen);
     font-size: 78px;
@@ -211,11 +233,6 @@ nav.active {
 }
 
 /* ----------------------------------  Banner */
-
-.underlay {
-    background: #E8B8A4;
-    height: 100vh;
-}
 
 .banner img {
     height: 100%;
