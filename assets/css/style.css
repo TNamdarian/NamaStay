@@ -244,10 +244,12 @@ a.button {
     text-decoration: none;
 }
 
-a.button:hover,
-.button:hover {
+.btn-begin:hover {
     border-color: var(--peach);
     background-color: var(--peach);
+}
+
+a.button:hover {
     color: var(--white);
 }
 
