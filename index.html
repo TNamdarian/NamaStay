@@ -27,42 +27,49 @@
 
 <body>
     <!-- .................... Navbar -->
-    <div class="menu-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <nav class="nav">
-        <div class="nav-left">
-            <ul>
-                <li class="nav-link uppercase"><a class="large" href="index.html">About</a></li>
-                <li class="nav-link uppercase"><a class="large" href="retreats.html">Retreats</a></li>
-                <li class="nav-link uppercase"><a class="large" href="contact.html">Contact</a></li>
-            </ul>
-            <div class="contact">
-                <p class="heading">Get in touch</p>
-                <p class="small"><i class="fas fa-mobile-alt"></i> ++44(0) 730 873 4516</p>
-                <p class="small"><i class="fas fa-at"></i> teemanamdraian@gmail.com</p>
-            </div>
-        </div>
-        <div class="nav-right"></div>
-    </nav>
-    <!-- it doesn't get linked -->
-    <!-- .................... Banner -->
-    <div class="container-fluid  underlay">
+    <header class="container-fluid mx-auto px-0">
         <div class="row">
-            <div class="col">
-                <a class="logo" href="index.html">NamaStay</a>
-                <h1 class="motto">Find your dream retreat!</h1>
-                <button type="button" class="btn btn-begin">Let's begin!</button>
-            </div>
-            <div class="col">
-                <div class="banner">
-                    <img src="assets/images/banner.jpg" alt="illustarted image of a yogi doing handstand">
+            <div class="col-12 col-md-6">
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
+                <nav class="nav">
+                    <div class="nav-left">
+                        <ul>
+                            <li class="nav-link uppercase"><a class="large" href="index.html">About</a></li>
+                            <li class="nav-link uppercase"><a class="large" href="retreats.html">Retreats</a></li>
+                            <li class="nav-link uppercase"><a class="large" href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="contact">
+                            <p class="heading">Get in touch</p>
+                            <p class="small"><i class="fas fa-mobile-alt"></i> ++44(0) 730 873 4516</p>
+                            <p class="small"><i class="fas fa-at"></i> teemanamdraian@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="nav-right"></div>
+                </nav>
+            </div>
+            <!-- Logo -->
+            <div class="col-12 col-md-6 logo">
+                <h1 class="logo">NamaStay</h1>
             </div>
         </div>
-        <script src="assets/script.js"></script>
+        </section>
+    </header>
+    <div class="container-fluid mx-auto">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <h2 class="motto">Find your dream retreat!</h2>
+                <button type="button" class="btn btn-begin"><a class="button" href="retreats.html">Let's begin!</a></button>
+            </div>
+            <div class="col-12 col-md-6 banner">
+                <img src="assets/images/banner.jpg" alt="illustarted image of a yogi doing handstand">
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
 </body>
 
 </html>

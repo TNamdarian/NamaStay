@@ -29,6 +29,11 @@ body {
     box-sizing: border-box;
 }
 
+/* ---------------------------------- container-fluid */
+.container-fluid {
+    background-color: var(--cream);
+}
+
 /* ---------------------------------- Nav */
 nav {
     position: fixed;
@@ -43,12 +48,12 @@ nav.active {
 }
 
 /* ---------------------------------- Nav left */
-a {
+.nav-link a {
     text-decoration: none;
     color: var(--white);
 }
 
-a:hover {
+.nav-link a:hover {
     color: var(--peach);
 }
 
@@ -198,6 +203,7 @@ a:hover {
     font-size: 78px;
     pointer-events: none;
     transition: 1s;
+    padding-left: 0;
 }
 
 .logo.active {
@@ -212,7 +218,7 @@ a:hover {
 }
 
 .banner img {
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -230,17 +236,22 @@ a:hover {
     background-color: var(--lightgreen);
     border-color: var(--lightgreen);
     border: 0;
-    color: var(--darkgreen);
     font-size: 24px;
 }
 
-.btn-begin:hover {
+a.button {
+    color: var(--darkgreen);
+    text-decoration: none;
+}
+
+a.button:hover,
+.button:hover {
     border-color: var(--peach);
     background-color: var(--peach);
     color: var(--white);
 }
 
-@media only screen and (max-width: 540px) {
+/* @media only screen and (max-width: 540px) {
     .logo {
         padding-left: 50px;
         font-size: 24px;
@@ -267,31 +278,31 @@ a:hover {
         left: 0;
     }
 
-    .underlay {
-        height: 630px;
-    }
-
     .menu-toggle {
         top: 2rem;
     }
 
     .large {
         font-size: 18px;
-        margin-left: 20px;
+        margin-left: 4px;
     }
 
     .small {
         font-size: 12px;
-        margin-left: 10px;
     }
 
     .nav-left ul {
-        left: 0;
         height: 0;
     }
 
-    .contact,
-    .heading {
-        left: 0;
+    .nav-link.active {
+        padding-left: 0;
+        margin-left: 0px;
+        left: 5px;
     }
-}
+
+    .contact.active {
+        margin-left: 0px;
+        left: 5px;
+    }
+} */
