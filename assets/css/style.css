@@ -219,7 +219,7 @@ nav.active {
 .logo {
     position: absolute;
     top: 30px;
-    left: 50px;
+    left: 40px;
     z-index: 100;
     color: var(--darkgreen);
     font-size: 78px;
@@ -269,6 +269,27 @@ a.button {
 a.button:hover {
     color: var(--white);
 }
+
+/* ----------------------------------  Features */
+.features {
+    padding: 60px;
+}
+
+.icon {
+    color: var(--orange);
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.icon:hover {
+    color: var(--lightgreen)
+}
+
+.feature-title {
+    font-size: 24px;
+    color: var(--darkgreen);
+}
+
 
 /* @media only screen and (max-width: 540px) {
     .logo {
