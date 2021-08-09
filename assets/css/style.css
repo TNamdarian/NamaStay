@@ -222,7 +222,6 @@ nav.active {
     left: 40px;
     z-index: 100;
     color: var(--darkgreen);
-    font-size: 78px;
     pointer-events: none;
     transition: 1s;
     padding-left: 0;
@@ -230,6 +229,10 @@ nav.active {
 
 .logo.active {
     color: var(--peach);
+}
+
+.logo h1 {
+    font-size: 78px;
 }
 
 /* ----------------------------------  Banner */
