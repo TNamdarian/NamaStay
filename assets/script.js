@@ -7,7 +7,7 @@ let navRight = document.querySelector('.nav-right');
 let navLinks = Array.from(document.querySelectorAll('.nav-link'));
 let contact = document.querySelector('.contact');
 let logo = document.querySelector('.logo');
-// let menuNetworksItems = Array.from(document.querySelectorAll('.menu-networks-items'));
+let menuNetworksItemss = document.querySelectorAll('.menu-networks-items');
 
 //  ..................... Creat eventlistener 
 menuToggle.addEventListener('click', () => {
@@ -16,11 +16,9 @@ menuToggle.addEventListener('click', () => {
     navRight.classList.toggle('active');
     navLeft.classList.toggle('active');
     logo.classList.toggle('active');
-    // menuNetworksItems.classList.toggle('.active');
 
     // Remove active class to restart delayed effect
     contact.classList.remove('active');
-    // menuNetworksItems.remove('.active');
     navRight.classList.remove('active');
 
     if (menuToggle.classList.contains('active')) {
@@ -39,8 +37,3 @@ menuToggle.addEventListener('click', () => {
         }, 700);
     }
 })
-//     setTimeout(() => {
-//         menuNetworksItems.classList.add('active');
-//     }, 500);
-// }
-// })

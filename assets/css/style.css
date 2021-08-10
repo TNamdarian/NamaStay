@@ -185,7 +185,7 @@ nav.active {
     color: var(--white);
 }
 
-.menu-networks-item {
+.menu-networks-item.active {
     opacity: 1;
     transition: 0.5s;
 }
