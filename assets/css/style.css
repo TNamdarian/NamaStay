@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* -------------------------------------------------- Common css codes */
 .uppercase {
@@ -31,7 +31,7 @@
 
 /* -------------------------------------------------- Root Variables*/
 :root {
-    --PT: 'PT Sans Caption', sans-serif;
+    --Mulish: 'Mulish', sans-serif;
     /* font-family: var(--PT); */
     --lightgreen: #84B4B4;
     /* color: var(--lightgreen); */
@@ -51,7 +51,7 @@
 
 /* ---------------------------------- body */
 body {
-    font-family: var(--PT);
+    font-family: var(--Mulish);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
