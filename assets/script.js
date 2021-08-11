@@ -7,7 +7,7 @@ let navRight = document.querySelector('.nav-right');
 let navLinks = Array.from(document.querySelectorAll('.nav-link'));
 let contact = document.querySelector('.contact');
 let logo = document.querySelector('.logo');
-let menuNetworksItems = document.querySelectorAll('.menu-networks-item');
+// let menuNetworksItems = document.querySelectorAll('.menu-networks-item');
 
 //  ..................... Creat eventlistener 
 menuToggle.addEventListener('click', () => {

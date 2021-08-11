@@ -74,6 +74,8 @@ nav.active {
 .nav-link a {
     text-decoration: none;
     color: var(--white);
+    font-weight: 700;
+    font-size: 48;
 }
 
 .nav-link a:hover {
@@ -187,22 +189,24 @@ nav.active {
     justify-content: space-around;
     position: relative;
     top: 500px;
-    left: 6%;
+    left: 5%;
     list-style: none;
 }
 
-/* 
+
 .menu-networks-item {
-    opacity: 1;
+    opacity: 0;
     position: relative;
     left: -10%;
+    pointer-events: none;
 }
 
 .menu-networks-item.active {
     opacity: 1;
-    transition: 0.5s;
+    transition: 5s;
     left: 0;
-} */
+    pointer-events: auto;
+}
 
 
 /* ---------------------------------- Menu Toggle */
@@ -269,6 +273,7 @@ nav.active {
 
 .logo h1 {
     font-size: 78px;
+    font-weight: 900;
 }
 
 /* ----------------------------------  Banner */
@@ -283,6 +288,7 @@ nav.active {
     left: 60px;
     top: 400px;
     color: var(--darkgreen);
+    font-weight: 700;
 }
 
 .btn-begin {
@@ -327,6 +333,7 @@ a.button:hover {
 .feature-title {
     font-size: 24px;
     color: var(--darkgreen);
+    font-weight: 700;
 }
 
 
