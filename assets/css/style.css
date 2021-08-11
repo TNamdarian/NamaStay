@@ -170,29 +170,40 @@ nav.active {
     font-weight: 700;
 }
 
-.menu-networks {
-    display: inline-block;
-    width: 100%;
-    padding: 500px 100px;
-}
-
-.menu-networks-item {
-    font-size: 18px;
-    padding-right: 3%;
-    padding-left: 3%;
-    opacity: 0;
+.menu-networks-item a {
     text-decoration: none;
     color: var(--white);
+    font-size: 14px;
+}
+
+.menu-networks-item a:hover {
+    color: var(--orange);
+}
+
+
+.menu-networks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 500px;
+    left: 6%;
+    list-style: none;
+}
+
+/* 
+.menu-networks-item {
+    opacity: 1;
+    position: relative;
+    left: -10%;
 }
 
 .menu-networks-item.active {
     opacity: 1;
     transition: 0.5s;
-}
+    left: 0;
+} */
 
-.menu-networks a:hover {
-    color: var(--orange);
-}
 
 /* ---------------------------------- Menu Toggle */
 .menu-toggle {
