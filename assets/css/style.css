@@ -75,7 +75,6 @@ nav.active {
     text-decoration: none;
     color: var(--white);
     font-weight: 700;
-    font-size: 48;
 }
 
 .nav-link a:hover {
@@ -83,15 +82,14 @@ nav.active {
 }
 
 .large {
-    font-size: 36px;
-    font-family: 400;
+    font-size: 48px;
 }
 
 .small {
     font-size: 12px;
     color: var(--white);
     opacity: 0.7;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .nav-left {
@@ -149,6 +147,7 @@ nav.active {
     opacity: 1;
     transition: 0.5s;
     left: 0;
+    padding: 0;
 }
 
 /* ---------------------------------- Conatct */
@@ -162,14 +161,14 @@ nav.active {
 
 .contact.active {
     opacity: 1;
-    left: 10%;
+    left: 80px;
     transition: 0.5s;
 }
 
 .contact .heading {
     color: var(--white);
-    margin-left: 50px;
     font-weight: 700;
+    margin-left: 20px;
 }
 
 .menu-networks-item a {
@@ -189,7 +188,7 @@ nav.active {
     justify-content: space-around;
     position: relative;
     top: 500px;
-    left: 5%;
+    left: 10px;
     list-style: none;
 }
 
@@ -258,7 +257,7 @@ nav.active {
 .logo {
     position: absolute;
     top: 30px;
-    left: 65px;
+    left: 70px;
     z-index: 100;
     color: var(--darkgreen);
     pointer-events: none;
