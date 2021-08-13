@@ -29,6 +29,7 @@
     text-align: var(--center);
 }
 
+
 /* -------------------------------------------------- Root Variables*/
 :root {
     --Mulish: 'Mulish', sans-serif;
@@ -320,9 +321,9 @@ nav.active {
     background-color: var(--lightgreen);
     border-color: var(--lightgreen);
     border: 0;
-    border-radius: 10px;
     font-size: 24px;
     font-weight: 900;
+    border-radius: 0;
 }
 
 a.button {
@@ -371,12 +372,12 @@ a.button:hover {
 .submit-button {
     background-color: var(--lightgreen);
     color: var(--darkgreen);
-    border-radius: 10px;
-    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-bottom: 100px;
     font-size: 24px;
+    font-weight: 900;
+    border-radius: 0;
 }
 
 .submit-button:hover {
@@ -417,8 +418,9 @@ a.button:hover {
 .form-floating>.form-select {
     padding-top: 24px;
     padding-bottom: 0;
-    font-family: var(--Mulish);
 }
+
+
 
 select#floatingSelect.form-select,
 textarea#floatingTextarea2.form-control {
