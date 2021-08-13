@@ -421,7 +421,6 @@ a.button:hover {
 }
 
 
-
 select#floatingSelect.form-select,
 textarea#floatingTextarea2.form-control {
     background-color: var(--pink);
