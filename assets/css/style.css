@@ -21,6 +21,10 @@
     background-color: var(--cream);
 }
 
+.img-section {
+    background-color: var(--pink);
+}
+
 .text.center {
     text-align: var(--center);
 }
@@ -43,7 +47,10 @@
     /* color: var(--peach); */
     --orange: #FDA951;
     /* color: var(--orange); */
+    --pink: #FFDBDC;
+    /* color: var(--pink); */
 }
+
 
 /* ---------------------------------- body */
 body {
@@ -373,7 +380,7 @@ a.button:hover {
 }
 
 .submit-button:hover {
-    background-color: var(--peach);
+    background-color: var(--orange);
     font-weight: 900;
     color: var(--white);
 }
@@ -386,6 +393,8 @@ a.button:hover {
 
 .text-input {
     margin-bottom: 10px;
+    border: 3px solid #043637;
+    background-color: var(--pink);
 }
 
 .text-input:hover {
@@ -400,20 +409,33 @@ a.button:hover {
     box-shadow: 1px 1px 1px 1px #043637;
 }
 
+.form-floating {
+    border: 3px solid #043637;
+    background-color: var(--pink);
+}
+
+.form-floating>.form-select {
+    padding-top: 24px;
+    padding-bottom: 0;
+    font-family: var(--Mulish);
+}
+
+select#floatingSelect.form-select,
+textarea#floatingTextarea2.form-control {
+    background-color: var(--pink);
+}
 
 /* -------------------- Cream section - Contact page */
 .img-section img {
     width: 100%;
-    height: 830px;
-    margin-top: 0px;
+    height: 500px;
+    margin: 150px 0px;
 }
 
 .img-section {
     padding: 0px;
+    background-color: var(--pink);
 }
-
-
-
 
 
 /* @media only screen and (max-width: 540px) {
