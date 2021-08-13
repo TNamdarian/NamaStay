@@ -13,6 +13,10 @@
     background-color: var(--peach);
 }
 
+.orange-section {
+    background-color: var(--orange);
+}
+
 .cream-section {
     background-color: var(--cream);
 }
@@ -369,7 +373,7 @@ a.button:hover {
 }
 
 .submit-button:hover {
-    background-color: var(--orange);
+    background-color: var(--peach);
     font-weight: 900;
     color: var(--white);
 }
@@ -398,16 +402,19 @@ a.button:hover {
 
 
 /* -------------------- Cream section - Contact page */
-.orange-section {
-    padding: 0;
+.img-section img {
+    width: 100%;
+    height: 830px;
+    margin-top: 0px;
 }
 
-/* 
-.orange-section img {
-    width: 100%;
-    height: 600px;
-    margin-top: 150px;
-} */
+.img-section {
+    padding: 0px;
+}
+
+
+
+
 
 /* @media only screen and (max-width: 540px) {
     .logo {
