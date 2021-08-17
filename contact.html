@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Allowing women to access their next yoga retreat spot">
     <meta name="keywords" content="Yoga, Retreat, Meditation, Yogi, Mindfullness, Women who love yoga, Yoga lovers">
+    <title>NamaStay</title>
     <!-- .................... Favicon -->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
     <!-- .................... Bootstrap -->
@@ -21,7 +22,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
     <!-- .................... Custom CSS style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>NamaStay</title>
+    <!-- .................... Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_PA3PdjeLVxah4GiqbbCmT");
+        })();
+    </script>
 </head>
 
 <body>
@@ -73,7 +80,7 @@
                     <img src="assets/images/onelegpigeon.png" alt="illustarted image of a yogi standing on one leg">
                 </div>
                 <div class="col-12 col-md-6 peach-section">
-                    <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
+                    <form onsubmit="return sendMail(this);" class="contact-form" target="_blank">
                         <h1 class="contact-title mb-3 mx-5">Contact</h1>
                         <div class="form-floating mb-3 mx-5">
                             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
@@ -102,6 +109,7 @@
             </div>
         </div>
     </section>
+    <script src="assets/js/sendEmail.js"></script>
     <script src="assets/script.js"></script>
 </body>
 
