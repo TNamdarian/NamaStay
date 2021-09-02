@@ -26,7 +26,7 @@
 
 <body>
     <!-- .................... Navbar -->
-    <header class="container-fluid mx-auto px-0 cream-section">
+    <header class="container-fluid mx-auto px-0">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="menu-toggle">
@@ -66,22 +66,47 @@
             </div>
         </div>
     </header>
-    <div class="retreat">
-        <h1>Your retreat</h1>
-    </div>
-    <div id="map"></div>
-    <script>
-        function initMap() {
-            var options = {
-                zoom: 6,
-                center: {
-                    lat: 54.966667,
-                    lng: -1.600000
-                }
-            }
-            var map = new google.maps.Map(document.getElementById('map'), options);
-        }
-    </script>
+    <section class="cream-section">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-6 retreat text-center">
+                    <h1>Your retreats</h1>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-md-6 retreat text-center">
+                        <div id="map"></div>
+                        <script>
+                            function initMap() {
+                                // New options
+                                var options = {
+                                    zoom: 5,
+                                    center: {
+                                        lat: 54.966667,
+                                        lng: -1.600000
+                                    }
+                                }
+                                // New map
+                                var map = new google.maps.Map(document.getElementById('map'), options);
+                                // Add marker 
+                                var marker = new google.maps.Marker({
+                                    position: {
+                                        lat: 50.2660,
+                                        lng: -4.652498
+                                    },
+                                    map: map
+                                });
+                            }
+                        </script>
+                    </div>
+                    <div class="col-12 col-md-6 retreat text-center">
+                        <h2>Conrwall</h2>
+                        <h2>Newcastle</h2>
+                    </div>
+                </div>
+            </div>
+    </section>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBU3rWrYuwB95JB5PB99tbWyX1mLrfLY_M&callback=initMap&libraries=&v=weekly" async></script>
     <script src="assets/js/script.js"></script>
 </body>
