@@ -96,7 +96,7 @@
                                         lat: 50.503632,
                                         lng: -4.652498
                                     },
-                                    iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+                                    iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
                                     content: '<h2>Watergate Bay Hotel, Newquay, Cornwall<h2>'
                                 });
                                 addMarker({
@@ -104,6 +104,7 @@
                                         lat: 50.716667,
                                         lng: -3.716667
                                     },
+                                    iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
                                     content: '<h2>Longlands, Devon<h2>'
                                 });
                                 addMarker({
@@ -111,6 +112,7 @@
                                         lat: 54.966667,
                                         lng: -1.600000
                                     },
+                                    iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
                                     content: '<h2>Nether Grange, Alnmouth, Northumberland<h2>'
                                 });
 
@@ -119,10 +121,15 @@
                                     var marker = new google.maps.Marker({
                                         position: props.coords,
                                         map: map,
-                                        icon: props.iconImage
                                     });
-                                    if (coords.content) {
-                                        infoWindow = new google.maps.InfoWindow({
+                                    // Check for custom icon
+                                    if (props.iconImage) {
+                                        //set icon image
+                                        marker.setIcon(props.iconImage);
+                                    }
+                                    // Check content
+                                    if (props.content) {
+                                        var infoWindow = new google.maps.InfoWindow({
                                             content: props.content
                                         });
 
