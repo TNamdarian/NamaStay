@@ -444,7 +444,8 @@ textarea#floatingTextarea2.form-control {
     height: 600px;
     width: 100%;
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .retreat h1 {
