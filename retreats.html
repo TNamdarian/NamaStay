@@ -89,22 +89,48 @@
                                 }
                                 // New map
                                 var map = new google.maps.Map(document.getElementById('map'), options);
-                                // Add marker 
-                                var marker = new google.maps.Marker({
-                                    position: {
-                                        lat: 50.2660,
+
+                                // Array of markers 
+                                addMarker({
+                                    coords: {
+                                        lat: 50.503632,
                                         lng: -4.652498
                                     },
-                                    map: map,
-                                    icon: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
-                                });
-                                infoWindow = new google.maps.InfoWindow({
+                                    iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
                                     content: '<h2>Watergate Bay Hotel, Newquay, Cornwall<h2>'
                                 });
-
-                                marker.addListener('click', function() {
-                                    infoWindow.open(map, marker);
+                                addMarker({
+                                    coords: {
+                                        lat: 50.716667,
+                                        lng: -3.716667
+                                    },
+                                    content: '<h2>Longlands, Devon<h2>'
                                 });
+                                addMarker({
+                                    coords: {
+                                        lat: 54.966667,
+                                        lng: -1.600000
+                                    },
+                                    content: '<h2>Nether Grange, Alnmouth, Northumberland<h2>'
+                                });
+
+                                // Add Marker function
+                                function addMarker(props) {
+                                    var marker = new google.maps.Marker({
+                                        position: props.coords,
+                                        map: map,
+                                        icon: props.iconImage
+                                    });
+                                    if (coords.content) {
+                                        infoWindow = new google.maps.InfoWindow({
+                                            content: props.content
+                                        });
+
+                                        marker.addListener('click', function() {
+                                            infoWindow.open(map, marker);
+                                        });
+                                    }
+                                }
                             }
                         </script>
                     </div>
