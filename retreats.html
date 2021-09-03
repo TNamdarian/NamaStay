@@ -95,7 +95,15 @@
                                         lat: 50.2660,
                                         lng: -4.652498
                                     },
-                                    map: map
+                                    map: map,
+                                    icon: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+                                });
+                                infoWindow = new google.maps.InfoWindow({
+                                    content: '<h2>Watergate Bay Hotel, Newquay, Cornwall<h2>'
+                                });
+
+                                marker.addListener('click', function() {
+                                    infoWindow.open(map, marker);
                                 });
                             }
                         </script>
