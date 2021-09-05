@@ -452,6 +452,26 @@ textarea#floatingTextarea2.form-control {
     color: var(--darkgreen);
 }
 
+.retreat ul {
+    margin-top: 100px;
+    list-style: none;
+    padding-top: 150px;
+}
+
+.retreat ul li {
+    line-height: 2;
+}
+
+.retreat ul a {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--darkgreen);
+}
+
+.retreat ul a:hover {
+    color: var(--white);
+}
 
 /* @media only screen and (max-width: 540px) {
     .logo {
