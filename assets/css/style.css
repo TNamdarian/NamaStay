@@ -282,6 +282,12 @@ nav.active {
     padding: 60px;
 }
 
+.features h2 {
+    font-weight: 900;
+    color: var(--darkgreen);
+    padding-bottom: 40px;
+}
+
 .icon {
     color: var(--orange);
     font-size: 24px;
@@ -301,8 +307,14 @@ nav.active {
 /* -------------------- Testimonials - About page */
 
 .panel {
-    width: 90vw;
     display: flex;
+}
+
+.testimonial-heading h2 {
+    font-weight: 900;
+    color: var(--darkgreen);
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .testimonial {
@@ -314,7 +326,7 @@ nav.active {
     border-radius: 50px;
     position: relative;
     flex: 0.5;
-    margin: 10px;
+    margin: 15px;
     transition: flex 0.7s ease-in;
     color: var(--darkgreen);
 }
@@ -340,13 +352,31 @@ nav.active {
 }
 
 .testimonial.active {
-    flex: 5;
+    flex: 3;
 }
 
 .testimonial.active h6,
 .testimonial.active p {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
+}
+
+.btn-testimonial {
+    background-color: var(--lightgreen);
+    border-color: var(--lightgreen);
+    border: 0;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 0;
+    color: var(--darkgreen);
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+
+.btn-testimonial:hover {
+    color: var(--white);
+    background-color: var(--orange);
 }
 
 @media(max-width: 480px) {
@@ -422,7 +452,6 @@ nav.active {
 
 .form-label {
     color: var(--darkgreen);
-    size: 24px;
     font-weight: 700;
 }
 
