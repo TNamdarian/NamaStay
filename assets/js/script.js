@@ -53,7 +53,7 @@ function removeActiveClasses() {
     })
 }
 
-// ..................... Add markers to the map
+// ..................... Add a map
 function initMap() {
     // New options
     var options = {
