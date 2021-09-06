@@ -35,7 +35,6 @@ menuToggle.addEventListener('click', () => {
     }
 })
 
-
 // ..................... Expanding Testimonial cards 
 const testimonials = document.querySelectorAll('.testimonial')
 
@@ -73,7 +72,7 @@ function initMap() {
                 lng: -4.652498
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Watergate Bay Hotel, Newquay, Cornwall</h2>'
+            content: '<h6>Watergate Bay Hotel, Newquay, Cornwall</h6>'
         },
         {
             coords: {
@@ -81,7 +80,7 @@ function initMap() {
                 lng: -3.716667
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Longlands, Devon</h2>'
+            content: '<h6>Longlands, Devon</h6>'
         },
         {
             coords: {
@@ -89,7 +88,7 @@ function initMap() {
                 lng: -1.600000
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Nether Grange, Alnmouth, Northumberland</h2>'
+            content: '<h6>Nether Grange, Alnmouth, Northumberland</h6>'
         },
         {
             coords: {
@@ -97,7 +96,7 @@ function initMap() {
                 lng: -2.441181
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Urban Beach Hotel, Bournmouth, Dorset</h2>'
+            content: '<h6>Urban Beach Hotel, Bournmouth, Dorset</h6>'
         },
         {
             coords: {
@@ -105,21 +104,21 @@ function initMap() {
                 lng: -1.33333
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Skyros Retreat, Shanklin, Isle of Wight</h2>'
+            content: '<h6>Skyros Retreat, Shanklin, Isle of Wight</h6>'
         },
         {
             coords: {
                 lat: 51.380001,
                 lng: -2.360000
             },
-            content: '<h2>Our Retreat at 42 Acres, Frome, Somerset</h2>'
+            content: '<h6>Our Retreat at 42 Acres, Frome, Somerset</h6>'
         },
         {
             coords: {
                 lat: 54.07369,
                 lng: -0.95032
             },
-            content: '<h2>The tree, North Yorkshire</h2>'
+            content: '<h6>The tree, North Yorkshire</h6>'
         },
         {
             coords: {
@@ -127,7 +126,7 @@ function initMap() {
                 lng: -3.179090
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Yoga Satsanga Ashram, Carmarthenshire, Wales</h2>'
+            content: '<h6>Yoga Satsanga Ashram, Carmarthenshire, Wales</h6>'
         },
         {
             coords: {
@@ -135,7 +134,7 @@ function initMap() {
                 lng: -6.0722222222222
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Ecoyoga, Argyll, Scotland</h2>'
+            content: '<h6>Ecoyoga, Argyll, Scotland</h6>'
         },
         {
             coords: {
@@ -143,7 +142,7 @@ function initMap() {
                 lng: -7.637558
             },
             iconImage: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-            content: '<h2>Lake Isle Retreats, Enniskillen, Northen Ireland</h2>'
+            content: '<h6>Lake Isle Retreats, Enniskillen, Northen Ireland</h6>'
         }
     ];
     // Loop through the markers 
