@@ -368,7 +368,7 @@ a.button:hover {
     display: flex;
 }
 
-.testimonails {
+.testimonial {
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ a.button:hover {
     color: var(--darkgreen);
 }
 
-.testimonails h6 {
+.testimonial h6 {
     font-size: 14px;
     position: absolute;
     bottom: 15px;
@@ -392,7 +392,7 @@ a.button:hover {
     color: var(--peach);
 }
 
-.testimonails p {
+.testimonial p {
     font-size: 18px;
     position: absolute;
     bottom: 30px;
@@ -402,13 +402,25 @@ a.button:hover {
     color: var(--darkgreen);
 }
 
-.testimonails.active {
+.testimonial.active {
     flex: 5;
 }
 
-.testimonails.active h6,
-.testimonails.active p {
+.testimonial.active h6,
+.testimonial.active p {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media(max-width: 480px) {
+    .panel {
+        width: 100vw;
+    }
+
+    .testimonials:nth-of-type(4),
+    .testimonials:nth-of-type(5) {
+        display: none;
+    }
 }
 
 /* -------------------- Form section - Contact page */

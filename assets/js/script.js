@@ -7,21 +7,16 @@ let navRight = document.querySelector('.nav-right');
 let navLinks = Array.from(document.querySelectorAll('.nav-link'));
 let contact = document.querySelector('.contact');
 let logo = document.querySelector('.logo');
-// let menuNetworksItems = document.querySelectorAll('.menu-networks-item');
 
-//  ..................... Creat eventlistener 
 menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
     nav.classList.toggle('active');
     navRight.classList.toggle('active');
     navLeft.classList.toggle('active');
     logo.classList.toggle('active');
-    // menuNetworksItemss.classList.toggle('active');
 
-    // Remove active class to restart delayed effect
     contact.classList.remove('active');
     navRight.classList.remove('active');
-    // menuNetworksItems.classList.remove('active');
 
     if (menuToggle.classList.contains('active')) {
         setTimeout(() => {
@@ -37,8 +32,23 @@ menuToggle.addEventListener('click', () => {
         setTimeout(() => {
             contact.classList.add('active');
         }, 700);
-        // setTimeout(() => {
-        //     menuNetworksItems.classList.add('active');
-        // }, 700);
     }
 })
+
+
+// ..................... Expanding Testimonial cards 
+const testimonials = document.querySelectorAll('.testimonial')
+
+// ..................... Add an event listener  
+testimonials.forEach((testimonial) => {
+    testimonial.addEventListener('click', () => {
+        removeActiveClasses()
+        testimonial.classList.add('active')
+    })
+})
+
+function removeActiveClasses() {
+    testimonials.forEach(testimonial => {
+        testimonial.classList.remove('active')
+    })
+}
