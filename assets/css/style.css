@@ -377,17 +377,29 @@ a.button:hover {
     border-radius: 50px;
     position: relative;
     flex: 0.5;
+    margin: 10px;
     transition: flex 0.7s ease-in;
     color: var(--darkgreen);
 }
 
-.testimonails h6,
-.testimonails p {
+.testimonails h6 {
     font-size: 14px;
     position: absolute;
+    bottom: 15px;
     left: 20px;
     margin: 0;
     opacity: 0;
+    color: var(--peach);
+}
+
+.testimonails p {
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    color: var(--darkgreen);
 }
 
 .testimonails.active {
