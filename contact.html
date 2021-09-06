@@ -65,42 +65,40 @@
             </div>
         </div>
     </header>
-    <section id="form">
-        <div class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-12 col-md-6 img-section">
-                    <img src="assets/images/onelegpigeon.png" alt="illustarted image of a yogi touching her head with her leg">
-                </div>
-                <div class="col-12 col-md-6 peach-section">
-                    <form onsubmit="return sendMail(this);" class="contact-form" target="_blank">
-                        <h2 class="contact-title mb-3 mx-5">Contact</h2>
-                        <div class="form-floating mb-3 mx-5">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option selected>Choose from the below options:</option>
-                                <option value="1">I am inquiring about a retreat.</option>
-                                <option value="2">I want to register a retreat.</option>
-                                <option value="3">I juat want to say Hi!</option>
-                            </select>
-                            <label for="floatingSelect">Contact Us</label>
-                        </div>
-                        <div class="mb-3 mx-5">
-                            <label for="exampleFormControlInput1" class="form-label">Name</label>
-                            <input name="exampleFormControlInput1" type="text" class="form-control text-input" id="exampleFormControlInput1" placeholder="Name" required>
-                            <label for="exampleFormControlInput3" class="form-label">Email</label>
-                            <input name="exampleFormControlInput3" type="email" class="form-control text-input" id="exampleFormControlInput3" placeholder="name@example.com" required>
-                        </div>
-                        <div class="form-floating mb-3 mx-5">
-                            <textarea class=" form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
-                            <label for="floatingTextarea2">Message</label>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn submit-button btn-lg" type="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
+    <div class="container-fluid" id="form">
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-6 img-section">
+                <img src="assets/images/onelegpigeon.png" alt="illustarted image of a yogi touching her head with her leg">
+            </div>
+            <div class="col-12 col-md-6 cream-section">
+                <form onsubmit="return sendMail(this);" class="contact-form" target="_blank">
+                    <h2 class="contact-title mb-3 mx-5">Contact</h2>
+                    <div class="form-floating mb-3 mx-5">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Choose from the below options:</option>
+                            <option value="1">I am inquiring about a retreat.</option>
+                            <option value="2">I want to register a retreat.</option>
+                            <option value="3">I juat want to say Hi!</option>
+                        </select>
+                        <label for="floatingSelect">Contact Us</label>
+                    </div>
+                    <div class="mb-3 mx-5">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input name="exampleFormControlInput1" type="text" class="form-control text-input" id="exampleFormControlInput1" placeholder="Name" required>
+                        <label for="exampleFormControlInput3" class="form-label">Email</label>
+                        <input name="exampleFormControlInput3" type="email" class="form-control text-input" id="exampleFormControlInput3" placeholder="name@example.com" required>
+                    </div>
+                    <div class="form-floating mb-3 mx-5">
+                        <textarea class=" form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn submit-button btn-lg" type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 

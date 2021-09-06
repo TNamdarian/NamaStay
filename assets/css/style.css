@@ -242,20 +242,7 @@ nav.active {
     font-weight: 900;
 }
 
-/* ----------------------------------  Banner */
-
-.banner img {
-    height: 100%;
-    width: 100%;
-}
-
-.motto {
-    position: relative;
-    left: 60px;
-    top: 400px;
-    color: var(--darkgreen);
-    font-weight: 700;
-}
+/* ----------------------------------  Buttons */
 
 .btn-begin {
     position: relative;
@@ -276,6 +263,60 @@ nav.active {
     color: var(--white);
     background-color: var(--orange);
 }
+
+.btn-testimonial,
+.btn-retreat {
+    background-color: var(--lightgreen);
+    border-color: var(--lightgreen);
+    border: 0;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 0;
+    color: var(--darkgreen);
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.btn-testimonial:hover,
+.btn-retreat:hover {
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.submit-button {
+    background-color: var(--lightgreen);
+    color: var(--darkgreen);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 0;
+}
+
+.submit-button:hover {
+    background-color: var(--orange);
+    font-weight: 900;
+    color: var(--white);
+}
+
+/* ----------------------------------  Banner */
+
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.motto {
+    position: relative;
+    left: 60px;
+    top: 400px;
+    color: var(--darkgreen);
+    font-weight: 700;
+}
+
 
 /* ----------------------------------  Features - About Page */
 .features {
@@ -361,23 +402,6 @@ nav.active {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-.btn-testimonial {
-    background-color: var(--lightgreen);
-    border-color: var(--lightgreen);
-    border: 0;
-    font-size: 24px;
-    font-weight: 900;
-    border-radius: 0;
-    color: var(--darkgreen);
-    text-decoration: none;
-    margin-top: 40px;
-}
-
-
-.btn-testimonial:hover {
-    color: var(--white);
-    background-color: var(--orange);
-}
 
 @media(max-width: 480px) {
     .panel {
@@ -396,11 +420,13 @@ nav.active {
     height: 800px;
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.retreat h1 {
+.retreat h2 {
     font-weight: 900;
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-bottom: 100px;
     color: var(--darkgreen);
 }
 
@@ -425,29 +451,19 @@ nav.active {
     color: var(--white);
 }
 
+.retreat h3 {
+    font-weight: 900;
+    color: var(--darkgreen);
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
 /* -------------------- Form section - Contact page */
 .contact-title {
     font-size: 72px;
     color: var(--darkgreen);
     font-weight: 900;
     margin-top: 150px;
-}
-
-.submit-button {
-    background-color: var(--lightgreen);
-    color: var(--darkgreen);
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-bottom: 100px;
-    font-size: 24px;
-    font-weight: 900;
-    border-radius: 0;
-}
-
-.submit-button:hover {
-    background-color: var(--orange);
-    font-weight: 900;
-    color: var(--white);
 }
 
 .form-label {
