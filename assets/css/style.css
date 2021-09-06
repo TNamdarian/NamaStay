@@ -340,7 +340,7 @@ a.button:hover {
     color: var(--white);
 }
 
-/* ----------------------------------  Features */
+/* ----------------------------------  Features - About Page */
 .features {
     padding: 60px;
 }
@@ -359,6 +359,44 @@ a.button:hover {
     font-size: 24px;
     color: var(--darkgreen);
     font-weight: 700;
+}
+
+/* -------------------- Testimonials - About page */
+
+.panel {
+    width: 90vw;
+    display: flex;
+}
+
+.testimonails {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    cursor: pointer;
+    border-radius: 50px;
+    position: relative;
+    flex: 0.5;
+    transition: flex 0.7s ease-in;
+    color: var(--darkgreen);
+}
+
+.testimonails h6,
+.testimonails p {
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.testimonails.active {
+    flex: 5;
+}
+
+.testimonails.active h6,
+.testimonails.active p {
+    opacity: 1;
 }
 
 /* -------------------- Form section - Contact page */
@@ -472,6 +510,8 @@ textarea#floatingTextarea2.form-control {
 .retreat ul a:hover {
     color: var(--white);
 }
+
+
 
 /* @media only screen and (max-width: 540px) {
     .logo {
