@@ -200,17 +200,18 @@ counters.forEach(counter => {
     counter.innerHTML = '0'
     // Set up the target
     const updateCounter = () => {
+        // Set up the count
         const target = +counter.getAttribute('data-target')
-        const c = +counter.innerText
+        const count = +counter.innerText
 
         const increment = target / 100
 
-        if (c < target) {
-            counter.innerText = `${Math.ceil(c+increment)}`
+        if (count < target) {
+            counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
             setTimeout(updateCounter, 10)
         } else {
             counter.innerText = target
         }
     }
-    updateCounter()
-})
+    updateCounter();
+});
