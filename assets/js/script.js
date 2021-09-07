@@ -191,3 +191,11 @@ function sendMail(contactForm) {
         );
     return false; // To block from loading a new page
 }
+
+// ..................... Incrementing counters 
+const counters = document.querySelectorAll('.counter');
+
+// set the counter at 0
+counters.forEach(counter => {
+    counter.innerHTML = '0'
+})
