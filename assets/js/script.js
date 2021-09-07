@@ -198,4 +198,17 @@ const counters = document.querySelectorAll('.counter');
 // set the counter at 0
 counters.forEach(counter => {
     counter.innerHTML = '0'
+    // Set up the target
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-target')
+        const c = +counter.innerText
+
+        const increment = target / 200
+
+        if (c < target) {
+            counter.innerText = `${Math.ceil(c+increment)}`
+            setTimeout(updateCounter, 1)
+        }
+    }
+    updateCounter()
 })
