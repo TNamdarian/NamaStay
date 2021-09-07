@@ -208,6 +208,8 @@ counters.forEach(counter => {
         if (c < target) {
             counter.innerText = `${Math.ceil(c+increment)}`
             setTimeout(updateCounter, 1)
+        } else {
+            counter.innerText = target
         }
     }
     updateCounter()
