@@ -517,7 +517,51 @@ textarea#floatingTextarea2.form-control {
     background-color: var(--pink);
 }
 
+/* -------------------- Footer */
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
 
+}
+
+.social-media .icon {
+    font-size: 30px;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-media span {
+    color: var(--darkgreen);
+    font-weight: 700;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+@media(max-width: 580px) {
+    footer .social-media {
+        flex-direction: column;
+    }
+
+    counter {
+        font-size: 30px;
+    }
+
+    .counter-container {
+        margin: 10px 30px;
+    }
+}
 
 /* @media only screen and (max-width: 540px) {
     .logo {
