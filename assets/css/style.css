@@ -479,14 +479,14 @@ nav.active {
 
 .text-input:hover {
     border-color: var(--darkgreen);
-    -webkit-box-shadow: 3px 3px 4px 2px #043637;
-    box-shadow: 1px 1px 1px 1px #043637;
+    -webkit-box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
+    box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
 }
 
 .form-floating:hover {
     border-color: var(--darkgreen);
-    -webkit-box-shadow: 3px 3px 4px 2px #043637;
-    box-shadow: 1px 1px 1px 1px #043637;
+    -webkit-box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
+    box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
 }
 
 .form-floating {
@@ -524,16 +524,27 @@ textarea#floatingTextarea2.form-control {
 }
 
 .faq-container h1 {
-    margin: 50px 0 30px;
+    margin: 200px 0 50px;
     font-weight: 900;
 }
 
 .faq {
-    border: 3px solid #043637;
+    border: 2px solid #043637;
     background-color: var(--pink);
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
 }
+
+.faq.active {
+    background-color: var(--lightgreen);
+    -webkit-box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
+    box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
+}
+
 
 /* -------------------- Footer */
 footer .social-media {
