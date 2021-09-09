@@ -517,6 +517,24 @@ textarea#floatingTextarea2.form-control {
     background-color: var(--pink);
 }
 
+/* -------------------- FAQ section - Contact page */
+.faq-container {
+    color: var(--darkgreen);
+    margin: 0;
+}
+
+.faq-container h1 {
+    margin: 50px 0 30px;
+    font-weight: 900;
+}
+
+.faq {
+    border: 3px solid #043637;
+    background-color: var(--pink);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* -------------------- Footer */
 footer .social-media {
     display: flex;
