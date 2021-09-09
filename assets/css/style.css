@@ -6,7 +6,7 @@
 }
 
 .white-section {
-    background-color: var(--bgWhite);
+    background-color: var(--bgwhite);
 }
 
 .green-section {
@@ -40,8 +40,8 @@
     /* color: var(--darkgreen); */
     --white: #ffffff;
     /* color: var(--white); */
-    --bgWhite: #FEF9F3;
-    /* color: var(--bgWhite); */
+    --bgwhite: #FEF9F3;
+    /* color: var(--bgwhite); */
     --cream: #E8B8A4;
     /* color: var(--cream); */
     --peach: #CE6C51;
@@ -154,7 +154,7 @@ nav.active {
     padding: 0;
 }
 
-/* ---------------------------------- Conatct */
+/* ---------------------------------- Contact */
 .contact {
     position: absolute;
     opacity: 0;
@@ -532,11 +532,11 @@ textarea#floatingTextarea2.form-control {
     border: 2px solid #043637;
     background-color: var(--lightgreen);
     max-width: 700px;
-    margin: 30px auto;
+    margin: 70px auto;
     padding: 30px;
     position: relative;
     overflow: hidden;
-    transition: 0.3s ease;
+    transition: 1s ease;
 }
 
 .faq.active {
@@ -594,7 +594,7 @@ textarea#floatingTextarea2.form-control {
     display: block;
 }
 
-.faq-toggle .fa-chevron-down {
+.faq.active .faq-toggle .fa-chevron-down {
     display: none;
 }
 

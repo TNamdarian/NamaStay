@@ -219,3 +219,12 @@ counters.forEach(counter => {
 // ..................... FAQ section
 // ..................... Bring in toggle buttons 
 const toggles = document.querySelectorAll('.faq-toggle');
+
+// ..................... Loop through nodelist 
+toggles.forEach(toggle => {
+    // ..................... Add an event listener 
+    toggle.addEventListener('click', () => {
+        // ..................... Toogle the active class on the parent node 
+        toggle.parentNode.classList.toggle('active')
+    })
+})
