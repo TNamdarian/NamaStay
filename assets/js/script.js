@@ -215,3 +215,7 @@ counters.forEach(counter => {
     }
     updateCounter();
 });
+
+// ..................... FAQ section
+// ..................... Bring in toggle buttons 
+const toggles = document.querySelectorAll('.faq-toggle');
