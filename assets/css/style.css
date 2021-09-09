@@ -530,7 +530,7 @@ textarea#floatingTextarea2.form-control {
 
 .faq {
     border: 2px solid #043637;
-    background-color: var(--pink);
+    background-color: var(--lightgreen);
     max-width: 700px;
     margin: 30px auto;
     padding: 30px;
@@ -540,11 +540,22 @@ textarea#floatingTextarea2.form-control {
 }
 
 .faq.active {
-    background-color: var(--lightgreen);
+    background-color: var(--pink);
     -webkit-box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
     box-shadow: 0px 3px 6px #043637, 0px 3px 6px #043637;
 }
 
+.faq.active::before {
+    content: '\f086';
+    font-family: 'Font Awesome 5 Free';
+    color: var(--darkgreen);
+    font-size: 8rem;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 0;
+    opacity: 0.5;
+}
 
 /* -------------------- Footer */
 footer .social-media {
