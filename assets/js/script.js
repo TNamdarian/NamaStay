@@ -7,6 +7,8 @@ let navRight = document.querySelector('.nav-right');
 let navLinks = Array.from(document.querySelectorAll('.nav-link'));
 let contact = document.querySelector('.contact');
 let logo = document.querySelector('.logo');
+let exportedMarkers = [];
+let openedInfoWindow = null;
 
 menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
@@ -147,7 +149,7 @@ function initMap() {
     ];
     // Loop through the markers 
     for (var i = 0; i < markers.length; i++) {
-        addMarker(markers[i]);
+        exportedMarkers.push(addMarker(markers[i]));
     }
 
     // Add Marker function
@@ -167,10 +169,19 @@ function initMap() {
                 content: props.content
             });
 
-            marker.addListener('click', function() {
-                infoWindow.open(map, marker);
+            marker.addListener('click', () => {
+                if (openedInfoWindow) {
+                    openedInfoWindow.close();
+                }
+                infoWindow.open({
+                    anchor: marker,
+                    map,
+                    shouldFocus: false,
+                });
+                openedInfoWindow = infoWindow;
             });
         }
+        return marker;
     }
 }
 
@@ -194,27 +205,53 @@ function sendMail(contactForm) {
 
 // ..................... Incrementing counters 
 const counters = document.querySelectorAll('.counter');
-
-// set the counter at 0
-counters.forEach(counter => {
-    counter.innerHTML = '0'
-    // Set up the target
-    const updateCounter = () => {
-        // Set up the count
-        const target = +counter.getAttribute('data-target')
-        const count = +counter.innerText
-
-        const increment = target / 100
-
-        if (count < target) {
-            counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
-            setTimeout(updateCounter, 10)
-        } else {
-            counter.innerText = target
-        }
-    }
-    updateCounter();
+counters.forEach((counter) => {
+    counter.innerHTML = '0';
 });
+
+const counterContainers = document.querySelectorAll('.counter-container');
+counterContainers.forEach((container) => {
+    container.addEventListener('mouseenter', () => {
+        const counter = container.querySelector('.counter');
+        // Set up the target
+        const updateCounter = () => {
+            // Set up the count
+            const target = +counter.getAttribute('data-target')
+            const count = +counter.innerText
+
+            const increment = target / 100
+
+            if (count < target) {
+                counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
+                setTimeout(updateCounter, 10)
+            } else {
+                counter.innerText = target
+            }
+        }
+        updateCounter();
+    }, false);
+});
+
+// // set the counter at 0
+// counters.forEach(counter => {
+//     counter.innerHTML = '0'
+//     // Set up the target
+//     const updateCounter = () => {
+//         // Set up the count
+//         const target = +counter.getAttribute('data-target')
+//         const count = +counter.innerText
+
+//         const increment = target / 100
+
+//         if (count < target) {
+//             counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
+//             setTimeout(updateCounter, 10)
+//         } else {
+//             counter.innerText = target
+//         }
+//     }
+//     updateCounter();
+// });
 
 // ..................... FAQ section
 // ..................... Bring in toggle buttons 
@@ -227,4 +264,12 @@ toggles.forEach(toggle => {
         // ..................... Toogle the active class on the parent node 
         toggle.parentNode.classList.toggle('active')
     })
-})
+});
+
+const markerLinkedList = document.querySelectorAll('.marker-linked');
+markerLinkedList.forEach((markerLinked) => {
+    markerLinked.addEventListener('mouseover', (event) => {
+        console.log(event.target);
+        google.maps.event.trigger(exportedMarkers[+event.target.dataset.markerIndex], 'click');
+    });
+});
