@@ -557,6 +557,11 @@ textarea#floatingTextarea2.form-control {
     opacity: 0.5;
 }
 
+.faq-answer {
+    display: none;
+}
+
+
 /* -------------------- Footer */
 footer .social-media {
     display: flex;
