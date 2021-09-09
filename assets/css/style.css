@@ -579,9 +579,19 @@ textarea#floatingTextarea2.form-control {
     width: 30px;
     border: 0;
     cursor: pointer;
-
 }
 
+.faq-toggle:focus {
+    outline: 0;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+    display: none;
+}
 
 /* -------------------- Footer */
 footer .social-media {
