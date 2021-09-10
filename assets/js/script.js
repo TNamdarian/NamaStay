@@ -7,8 +7,7 @@ let navRight = document.querySelector('.nav-right');
 let navLinks = Array.from(document.querySelectorAll('.nav-link'));
 let contact = document.querySelector('.contact');
 let logo = document.querySelector('.logo');
-let exportedMarkers = [];
-let openedInfoWindow = null;
+
 
 menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
@@ -53,6 +52,11 @@ function removeActiveClasses() {
         testimonial.classList.remove('active')
     })
 }
+
+
+// Create selectors 
+let exportedMarkers = [];
+let openedInfoWindow = null;
 
 // ..................... Add a map
 function initMap() {
@@ -168,7 +172,7 @@ function initMap() {
             var infoWindow = new google.maps.InfoWindow({
                 content: props.content
             });
-
+            // to open and close the infoWindow after each hoveing 
             marker.addListener('click', () => {
                 if (openedInfoWindow) {
                     openedInfoWindow.close();
@@ -231,27 +235,6 @@ counterContainers.forEach((container) => {
         updateCounter();
     }, false);
 });
-
-// // set the counter at 0
-// counters.forEach(counter => {
-//     counter.innerHTML = '0'
-//     // Set up the target
-//     const updateCounter = () => {
-//         // Set up the count
-//         const target = +counter.getAttribute('data-target')
-//         const count = +counter.innerText
-
-//         const increment = target / 100
-
-//         if (count < target) {
-//             counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
-//             setTimeout(updateCounter, 10)
-//         } else {
-//             counter.innerText = target
-//         }
-//     }
-//     updateCounter();
-// });
 
 // ..................... FAQ section
 // ..................... Bring in toggle buttons 
