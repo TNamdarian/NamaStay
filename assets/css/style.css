@@ -368,7 +368,6 @@ nav.active {
     flex: 0.5;
     margin: 15px;
     transition: flex 0.7s ease-in;
-    color: var(--darkgreen);
 }
 
 .testimonial h6 {
@@ -378,7 +377,7 @@ nav.active {
     left: 40px;
     margin: 0;
     opacity: 0;
-    color: var(--peach);
+    color: #290e07;
 }
 
 .testimonial p {
@@ -388,7 +387,8 @@ nav.active {
     left: 40px;
     margin: 0;
     opacity: 0;
-    color: var(--darkgreen);
+    color: #1d3435;
+    font-weight: 700;
 }
 
 .testimonial.active {
@@ -400,6 +400,8 @@ nav.active {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
 }
+
+.panel .card-text {}
 
 
 @media(max-width: 480px) {
@@ -459,7 +461,7 @@ nav.active {
 
 /* -------------------- Form section - Contact page */
 .contact-title {
-    font-size: 72px;
+    font-size: 60px;
     color: var(--darkgreen);
     font-weight: 900;
     margin-top: 150px;
@@ -523,15 +525,17 @@ textarea#floatingTextarea2.form-control {
 }
 
 .faq-container h1 {
-    margin: 200px 0 50px;
+    font-size: 60px;
+    color: var(--darkgreen);
     font-weight: 900;
+    margin-top: 200px;
 }
 
 .faq {
     border: 2px solid #043637;
     background-color: var(--lightgreen);
     max-width: 700px;
-    margin: 70px auto;
+    margin: 20px auto;
     padding: 30px;
     position: relative;
     overflow: hidden;
