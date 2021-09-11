@@ -368,7 +368,7 @@ nav.active {
     cursor: pointer;
     border-radius: 50px;
     position: relative;
-    flex: 0.5;
+    flex: 0.6;
     margin: 15px;
     transition: flex 0.7s ease-in;
 }
