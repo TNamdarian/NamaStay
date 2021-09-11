@@ -13,32 +13,13 @@
     background-color: var(--darkgreen);
 }
 
-.lightgreen-section {
-    background-color: var(--lightgreen);
-}
-
-.orange-section {
-    background-color: var(--orange);
-}
-
 .cream-section {
     background-color: var(--cream);
 }
 
-.img-section1 {
-    background-color: var(--lightgreen);
-}
-
-
-.img-section2 {
-    background-color: var(--lightgreen);
-}
-
-
 .text-center {
     text-align: var(--center);
 }
-
 
 /* -------------------------------------------------- Root Variables*/
 :root {
@@ -459,7 +440,7 @@ nav.active {
 }
 
 .retreat ul a:hover {
-    color: var(--white);
+    color: var(--orange);
 }
 
 .retreat h3 {
@@ -518,13 +499,13 @@ textarea#floatingTextarea2.form-control {
 
 /* -------------------- Cream section - Contact page */
 
-.img-section2 img {
+.img1 {
     width: 100%;
     height: 500px;
     margin: 150px 0px;
 }
 
-.img-section1 img {
+.img2 {
     width: 100%;
     height: 500px;
     margin-top: 250px;
