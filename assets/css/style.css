@@ -380,7 +380,7 @@ nav.active {
     left: 40px;
     margin: 0;
     opacity: 0;
-    color: #290e07;
+    color: var(--peach);
 }
 
 .testimonial p {
@@ -390,7 +390,7 @@ nav.active {
     left: 40px;
     margin: 0;
     opacity: 0;
-    color: #1d3435;
+    color: var(--darkgreen);
     font-weight: 700;
 }
 
