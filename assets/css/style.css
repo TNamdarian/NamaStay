@@ -22,12 +22,12 @@
 }
 
 .img-section1 {
-    background-color: #FFF9F3;
+    background-color: var(--darkgreen);
 }
 
 
 .img-section2 {
-    background-color: var(--pink);
+    background-color: var(--darkgreen);
 }
 
 
@@ -547,7 +547,7 @@ textarea#floatingTextarea2.form-control {
 }
 
 .faq {
-    border: 2px solid #043637;
+    border: 3px solid #043637;
     background-color: var(--lightgreen);
     max-width: 700px;
     margin: 20px 20px;
