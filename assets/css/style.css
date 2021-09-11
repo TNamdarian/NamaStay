@@ -21,9 +21,15 @@
     background-color: var(--cream);
 }
 
-.img-section {
+.img-section1 {
+    background-color: #FFF9F3;
+}
+
+
+.img-section2 {
     background-color: var(--pink);
 }
+
 
 .text-center {
     text-align: var(--center);
@@ -507,15 +513,22 @@ textarea#floatingTextarea2.form-control {
 }
 
 /* -------------------- Cream section - Contact page */
-.img-section img {
+
+.img-section2 img {
     width: 100%;
     height: 500px;
     margin: 150px 0px;
 }
 
-.img-section {
+.img-section1 img {
+    width: 100%;
+    height: 500px;
+    margin-top: 250px;
+}
+
+.img-section1,
+.img-section2 {
     padding: 0px;
-    background-color: var(--pink);
 }
 
 /* -------------------- FAQ section - Contact page */
@@ -529,13 +542,15 @@ textarea#floatingTextarea2.form-control {
     color: var(--darkgreen);
     font-weight: 900;
     margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .faq {
     border: 2px solid #043637;
     background-color: var(--lightgreen);
     max-width: 700px;
-    margin: 20px auto;
+    margin: 20px 20px;
     padding: 30px;
     position: relative;
     overflow: hidden;
