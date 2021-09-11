@@ -255,7 +255,19 @@ nav.active {
     background-color: var(--orange);
 }
 
-.btn-testimonial,
+.btn-testimonial {
+    background-color: var(--lightgreen);
+    border-color: var(--lightgreen);
+    border: 0;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 0;
+    color: var(--darkgreen);
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
 .btn-retreat {
     background-color: var(--lightgreen);
     border-color: var(--lightgreen);
@@ -265,8 +277,8 @@ nav.active {
     border-radius: 0;
     color: var(--darkgreen);
     text-decoration: none;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    align-items: center;
+    margin-right: 80px;
 }
 
 
@@ -280,7 +292,7 @@ nav.active {
     background-color: var(--lightgreen);
     color: var(--darkgreen);
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 24px;
     font-weight: 900;
     border-radius: 0;
@@ -415,6 +427,10 @@ nav.active {
     margin-bottom: 100px;
 }
 
+.retreat {
+    padding: 0;
+}
+
 .retreat h2 {
     font-weight: 900;
     margin-top: 300px;
@@ -446,8 +462,7 @@ nav.active {
 .retreat h3 {
     font-weight: 900;
     color: var(--darkgreen);
-    margin-bottom: 20px;
-    margin-top: 60px;
+    margin: 150px 100px 50px 0;
 }
 
 /* -------------------- Form section - Contact page */
@@ -455,7 +470,7 @@ nav.active {
     font-size: 60px;
     color: var(--darkgreen);
     font-weight: 900;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .form-label {
@@ -502,13 +517,13 @@ textarea#floatingTextarea2.form-control {
 .img1 {
     width: 100%;
     height: 500px;
-    margin: 150px 0px;
+    margin: 200px 0px;
 }
 
 .img2 {
     width: 100%;
     height: 500px;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 .img-section1,
