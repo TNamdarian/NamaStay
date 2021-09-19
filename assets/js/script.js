@@ -191,7 +191,7 @@ function initMap() {
 
 // ..................... Email functionality 
 function sendMail(contactForm) {
-    emailjs.send("gmail", "Teema", {
+    emailjs.send("gmail", "NamaStay", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.email.value,
             "message": contactForm.message.value
