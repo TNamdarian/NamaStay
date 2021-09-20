@@ -673,7 +673,7 @@ footer .social-media {
     }
 }
 
-/* @media only screen and (max-width: 540px) {
+@media only screen and (max-width: 540px) {
     .logo {
         padding-left: 50px;
         font-size: 24px;
@@ -727,4 +727,4 @@ footer .social-media {
         margin-left: 0px;
         left: 5px;
     }
-} */
+}
