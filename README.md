@@ -26,6 +26,28 @@ Users visit this website to:
 # UX
 Since the first Covid lockdown the mental health has become of one the most important aspects of our lives. In this project, I tried to promote the importance of yoga through socializing and benefits of retreats to boost wellbeing in general. Not being able to travel outside of the UK freely, I ensured I included enough retreat options locally and linked them to their original websites for the users to get further information. Each page links the user to the next page to direct them to retreats’ locations and contact page.   
 
+### Ideal client 
+The ideal client for this website is: 
+* English speaking
+* Yoga lovers
+* Located in the UK
+* People are into wellbeing, yoga, nature, and retreats 
+* People who are willing to spend money on themselves and their health
+* Would like to register a retreat with NamaStay
+
+The project help clients to: 
+* navigate easily through the website and reach the information they need easily. 
+* learn about the retreats and their locations, read previous clients’ testimonials and FAQs, and connect with the organizer via social media. 
+
+### User stories: 
+1.	As a user, I want to easily navigate the site to find my ideal yoga retreat. 
+2.	As an owner of a yoga retreat, I would like to find out if this website is trustworthy and reputable by seeing what the previous clients say about them so I can collaborate with them. 
+3.	As a visitor, I would like to learn more about the yoga retreats via their landing pages. 
+4.	As a user, I would like to know how to contact the organizer to book a retreat. 
+5.	As a customer, I want to be able to contact the organiser easily. 
+6.	As a potential client, I would like to learn more about the organiser and get validation via their social media. It is more reassuring to trust businesses who have a solid follower base.  
+7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the organiser.
+
 
 
 
