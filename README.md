@@ -73,8 +73,17 @@ The logo and a toggled menu bar are positions in the left- and right-hand sides 
 
 # Features 
 ### Header
-The website consists of three pages; About, Retreats and Contact. The **header** contains a **logo** and **menu** option on either top corner of each page. This will create consistency throughout the website and the user can access the information via the menu bar and move around the site. The links will remain active (turn into orange) when in use. 
+The **header** contains a **logo** and **menu** option on either top corner of each page. This will create consistency throughout the website. Once the user clikcs on the menu on the right corner, it toggles open a navbar from left to right containing links to pages i.e., **About**, **Retreats** and **Contact**. The user can access the information via the navbar on the left side and move around the site. The links will remain active (change to orange) when in use. 
 
+### Footer
+Every page has a **footer** with links to **social media**. The social media icons are linked to the general social networks as this is fictional website. The followers and subscribers’ numbers are unreal and made up. When the user hovers over the icons the number increment to show the exact number of followers and subscribers. 
+
+### About
+The About page features an illustration / **banner** to introduce the theme of the website. To the left side of the image, there is a line about what the website offers and a **call-to-action** button: *Let’s begin!* which takes the user to the **Retreats** page. 
+At the bottom of these, the **ethos** are presented. This encourages users to book a retreat as they are informative and factual. It will enhance user’s emotional response. 
+The **testimonials** cards are placed below the ethos to build trust and credibility and accountability of the organiser. When user clicks on each card, they expand to allow users to read the texts. 
+Finally, there is an invitation take actions via a **call-to-action** button: *Take me there!*. 
+The About page also uses cream and light pink colors and fun illustrations to separate each section and create positive user response. 
 
 
 
