@@ -60,8 +60,20 @@ To achieve the strategic goals, I included the following features in the website
 * Footer on every page containing the links to the organiser’s social media which upon hovering it triggers the number of followers and subscribers. 
 
 ## Skeleton 
-The website consists of three pages; About (introduces the aim of the website, benefits of yoga and testimonials), Retreat (including the map locating various retreats), and Contact (including FAQs and a contact form). 
+The website consists of three pages; About (introduces the aim of the website, benefits of yoga and testimonials), Retreats (including the map locating various retreats), and Contact (including FAQs and a contact form). All pages have the same logo, nav bar and footer. 
 
+### Wireframe Mockups: 
+* [Home]()
+* [Retreats]()
+* [Contact]()
+
+
+## Surface 
+The logo and a toggled menu bar are positions in the left- and right-hand sides of the website in the header incorporating dark green colour. When the menu icon is clicked, it toggles and opens a green and cream navbar on the left side of the page. The earthy colours throughout the website have been chosen to represent nature, serenity, pureness, and energy.  I have chosen dark typography yet bold styles to show strength. The light green and orange colours have been taken from the banner image on the About page for call-to-action buttons, and social media icons. The combination of white, cream, light pink, light blue and dark green colours convey a sense of positivity, energy, and freshness. 
+
+# Features 
+### Header
+The website consists of three pages; About, Retreats and Contact. The **header** contains a **logo** and **menu** option on either top corner of each page. This will create consistency throughout the website and the user can access the information via the menu bar and move around the site. The links will remain active (turn into orange) when in use. 
 
 
 
