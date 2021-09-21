@@ -48,6 +48,19 @@ The project help clients to:
 6.	As a potential client, I would like to learn more about the organiser and get validation via their social media. It is more reassuring to trust businesses who have a solid follower base.  
 7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the organiser.
 
+### Scope
+To achieve the strategic goals, I included the following features in the website: 
+* Header containing website’s logo/name and the menu bar including Home, Retreats, and Contact. The menu toggles when the user clicks on it and it pans out the nav bar. 
+* Home page which says about the purpose of the website, benefits of yoga retreats and testimonials. 
+* Call for action button on about and retreat pages. 
+* Retreats list including names linked to external websites and their locations on a Google map. When user hovers over each retreat, they can see the locations popping up on the map. 
+* Testimonials including the name of fictional yogis and their experiences.
+* FAQs to allow users find answers to commonly asked questions. 
+* Contact form to allow users contact the organiser to register, inquire or book a retreat. 
+* Footer on every page containing the links to the organiser’s social media which upon hovering it triggers the number of followers and subscribers. 
+
+## Skeleton 
+The website consists of three pages; About (introduces the aim of the website, benefits of yoga and testimonials), Retreat (including the map locating various retreats), and Contact (including FAQs and a contact form). 
 
 
 
