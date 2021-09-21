@@ -19,10 +19,12 @@ The business goals of this website are:
 
 Users visit this website to:
 * Search for a reputable retreat experience. 
-* Read about each retreat and chose their favourite one(s). 
-* Reach the event organiser easily and get in touch easily. 
+* Read about each retreat and choose their favourite one(s). 
+* Reach the event organiser and get in touch easily. 
 * Find the contact information effortlessly by filling up a form to make enquiries, register their retreats or just connect. 
 
+# UX
+Since the first Covid lockdown the mental health has become of one the most important aspects of our lives. In this project, I tried to promote the importance of yoga through socializing and benefits of retreats to boost wellbeing in general. Not being able to travel outside of the UK freely, I ensured I included enough retreat options locally and linked them to their original websites for the users to get further information. Each page links the user to the next page to direct them to what they need.  
 
 
 
