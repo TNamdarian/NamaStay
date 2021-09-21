@@ -73,7 +73,7 @@ The logo and a toggled menu bar are positions in the left- and right-hand sides 
 
 # Features 
 ### Header
-The **header** contains a **logo** and **menu** option on either top corner of each page. This will create consistency throughout the website. Once the user clikcs on the menu on the right corner, it toggles open a navbar from left to right containing links to pages i.e., **About**, **Retreats** and **Contact**. The user can access the information via the navbar on the left side and move around the site. The links will remain active (change to orange) when in use. 
+The **header** contains a **logo** and **menu** option on either top corner of each page. This will create consistency throughout the website. Once the user clicks on the menu on the right corner, it toggles open a navbar from left to right containing links to pages i.e., **About**, **Retreats** and **Contact** as well as the organiser’s contact details. The user can access the information via the navbar on the left side and move around the site. The links will remain active (change to orange) when in use.
 
 ### Footer
 Every page has a **footer** with links to **social media**. The social media icons are linked to the general social networks as this is fictional website. The followers and subscribers’ numbers are unreal and made up. When the user hovers over the icons the number increment to show the exact number of followers and subscribers. 
@@ -82,8 +82,19 @@ Every page has a **footer** with links to **social media**. The social media ico
 The About page features an illustration / **banner** to introduce the theme of the website. To the left side of the image, there is a line about what the website offers and a **call-to-action** button: *Let’s begin!* which takes the user to the **Retreats** page. 
 At the bottom of these, the **ethos** are presented. This encourages users to book a retreat as they are informative and factual. It will enhance user’s emotional response. 
 The **testimonials** cards are placed below the ethos to build trust and credibility and accountability of the organiser. When user clicks on each card, they expand to allow users to read the texts. 
-Finally, there is an invitation take actions via a **call-to-action** button: *Take me there!*. 
+Finally, there is a **call-to-action** button: *Take me there!* to make the pages link together and navigation around the site more smooth. 
 The About page also uses cream and light pink colors and fun illustrations to separate each section and create positive user response. 
+
+### Retreats
+The Retreats page features a **Google map** on the left-hand side of the page and a list of retreats on the right. When the user hover on each retreat item, they can see the location of the retreat on the map. Moving to a new item, the Window Info will close and another one will open. By clicking on each item, the user will be taken to an external website where they can learn more about that specific place. 
+At the bottom of the page, there is a **call-to-action** button: *Contact us!*. In case users couldn’t find a retreat, they could get in touch with the organiser to receive more information. 
+The Retreats page also uses cream and light pink colors and fun illustrations to separate each section and create positive user response. These colours are in coordination with the rest of the website. 
+
+### Contact  
+The contact page features the **FAQs**. Each question is wrapped in a box. when users click on the arrow, they can expand the box to read the answers.  Clicking on the cross (x) will hide the answer. 
+Then, there is a **Contact Form** which user can fill up to reach the organiser to make enquires, book or register a retreat. 
+The bottom of the form contains a **Submit!** button.  
+
 
 
 
