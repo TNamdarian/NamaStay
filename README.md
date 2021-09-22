@@ -260,12 +260,11 @@ The texts and links to retreats for all the pages have been taken from the follo
 
 
 ## Media 
-Since this is a fictional website I decided to use illustarations to make it more fun and impersonal. 
-* The illustrations were obtained from: 
-[Iconscout](https://iconscout.com/)
-[dribble.com](https://dribbble.com/)
-[uplabs.com](https://www.uplabs.com/)
-[creativevip.net](https://creativevip.net/)
+Since this is a fictional website I decided to use illustarations to make it more fun and impersonal. The illustrations were obtained from: 
+* [Iconscout](https://iconscout.com/)
+* [dribble.com](https://dribbble.com/)
+* [uplabs.com](https://www.uplabs.com/)
+* [creativevip.net](https://creativevip.net/)
 
 
 ## Code 
