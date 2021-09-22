@@ -780,6 +780,31 @@ footer .social-media {
     .retreat img {
         margin-left: 0;
     }
+
+    .btn-retreat {
+        margin-right: 0;
+    }
+
+    .retreat h3 {
+        margin: 100px 60px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo h1 {
+        font-size: 2.0rem;
+        font-weight: 900;
+    }
+
+    .menu-toggle {
+        left: 19rem;
+    }
+
+    .active .nav-left {
+        width: 65%;
+    }
 }
 
 /* Mid mobile - Large mobile screens */

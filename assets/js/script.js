@@ -22,35 +22,35 @@ menuToggle.addEventListener('click', () => {
     if (menuToggle.classList.contains('active')) {
         setTimeout(() => {
             navRight.classList.add('active');
-        }, 100)
+        }, 100);
 
         for (let i = 0; i < navLinks.length; i++) {
             navLinks[i].classList.remove('active');
             setTimeout(() => {
-                navLinks[i].classList.add('active')
-            }, i * 100)
+                navLinks[i].classList.add('active');
+            }, i * 100);
         }
         setTimeout(() => {
             contact.classList.add('active');
         }, 700);
     }
-})
+});
 
 // ..................... Expanding Testimonial cards 
-const testimonials = document.querySelectorAll('.testimonial')
+const testimonials = document.querySelectorAll('.testimonial');
 
 // ..................... Add an event listener  
 testimonials.forEach((testimonial) => {
     testimonial.addEventListener('click', () => {
-        removeActiveClasses()
-        testimonial.classList.add('active')
-    })
-})
+        removeActiveClasses();
+        testimonial.classList.add('active');
+    });
+});
 
 function removeActiveClasses() {
     testimonials.forEach(testimonial => {
-        testimonial.classList.remove('active')
-    })
+        testimonial.classList.remove('active');
+    });
 }
 
 
@@ -67,7 +67,7 @@ function initMap() {
             lat: 54.966667,
             lng: -1.600000
         }
-    }
+    };
     // New map
     var map = new google.maps.Map(document.getElementById('map'), options);
 
@@ -220,18 +220,18 @@ counterContainers.forEach((container) => {
         // Set up the target
         const updateCounter = () => {
             // Set up the count
-            const target = +counter.getAttribute('data-target')
-            const count = +counter.innerText
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
 
-            const increment = target / 100
+            const increment = target / 100;
 
             if (count < target) {
-                counter.innerText = `${Math.ceil(count+increment)}` // round up numbers 
-                setTimeout(updateCounter, 10)
+                counter.innerText = `${Math.ceil(count+increment)}`; // round up numbers 
+                setTimeout(updateCounter, 10);
             } else {
-                counter.innerText = target
+                counter.innerText = target;
             }
-        }
+        };
         updateCounter();
     }, false);
 });
@@ -245,8 +245,8 @@ toggles.forEach(toggle => {
     // ..................... Add an event listener 
     toggle.addEventListener('click', () => {
         // ..................... Toogle the active class on the parent node 
-        toggle.parentNode.classList.toggle('active')
-    })
+        toggle.parentNode.classList.toggle('active');
+    });
 });
 
 const markerLinkedList = document.querySelectorAll('.marker-linked');
