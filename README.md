@@ -204,7 +204,7 @@ No errors were identified in the CSS code by **W3C CSS validation**.
 ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/css-validation.png)
 
 ## Color Contrast 
-The [Color Contrast Accessibility Validator](https://webaim.org/) was used to test for colour contrast on the project.
+The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to test for colour contrast on the project.
 
 ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-1.png). 
 ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-2.png). 
