@@ -2,7 +2,7 @@
 
 ## Yoga Retreat Promoter 
 
-[View the live project here.]( https://tnamdarian.github.io/NamaStay/)
+[View the live project here.](https://tnamdarian.github.io/NamaStay/)
 
 ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/am-i-responsive.png)  
 The image is from [Am I responsive?](http://ami.responsivedesign.is/)
@@ -121,7 +121,7 @@ Due to time restraints, I was unable to include the following features but hope 
 
 # Technologies Used
 This project uses HTML, CSS and JavaScript programming languages.
--	[Figma](https://balsamiq.cloud/sxrt5co/pf4f2oo) I used Balsamiq, the rapid low-fidelity UI wireframing tool to sketch the structure of the website layout and its pages following best UX practices.
+-	[Figma]( https://www.figma.com/) I used figma, Figma a vector graphics editor and prototyping tool which is primarily web-based to wireframe the structure of the website layout and its pages following best UX practices.
 -	[Gitpod](https://gitpod.io/workspaces) - The developer used Gitpod to write the code to builds the website.
 -	[GitHub](https://github.com/) - The project used GitHub to host my code that was created and pushed from GitPod.
 -	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
