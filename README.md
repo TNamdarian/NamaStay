@@ -133,6 +133,62 @@ This project uses HTML, CSS and JavaScript programming languages.
 -	[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) W3C CSS Validation Service was used to check the validity of my CSS in the project.
 -	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
+# Testing 
+## Testing client stories from UX section of README.md
+1.	As a user, I want to easily navigate the site to find my ideal yoga retreat. 
+    - The user can navigate through the website using the navbar **menu** on top right corner of the page. 
+- The **logo** links the user back to the **About Page**. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
+
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/header1.png)
+
+    - The **Ethos** on **About Page** provide more information about the designer to the users. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
+
+    - The **call-to-action button** takes the users to the **Retreats Page** where they can get more information on retreats. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/banner.png)
+
+    - The **call-to-action button** takes the users to the **Contact Page** where they can contact the organiser to get more information. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
+
+
+2.	As an owner of a yoga retreat, I would like to find out if this website is trustworthy and reputable by seeing what the previous clients say about them so I can collaborate with them. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
+
+3.	As a visitor, I would like to learn more about the yoga retreats via their landing pages. 
+- The **Ethos** on **About Page** gives some facts about retreats. 
+
+   ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
+
+- The list of retreats on **Retreats Page** links users to external websites for more information. 
+
+   ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/map.png)
+
+
+    
+4.	As a user, I would like to know how to contact the organizer to book a retreat.
+5.	As a customer, I want to be able to contact the organiser easily. 
+ 
+    - In **Contact Page**, fill up a form and book a retreat. 
+
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/contact-form.png)
+
+6.	As a potential client, I would like to learn more about the organiser and get validation via their social media. It is more reassuring to trust businesses who have a solid follower base.  
+  - The **footer** provides links to the designer's **social media** platforms. 
+
+
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer1.png)
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer.png)
+    
+7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the organiser.
+- The **phone number** and **email address** of the organiser has been shared in the footer on every page.
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
 
 
 
