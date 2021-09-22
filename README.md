@@ -96,20 +96,42 @@ Then, there is a **Contact Form** which user can fill up to reach the organiser 
 The bottom of the form contains a **Submit!** button.  
 
 # Existing Features 
-* Header Logo – Exists on every page aiming to promote brand awareness. Clicking on the logo will return the users to the Home page as they expect. 
-* Header Navigation Bar – Exists on every page to allow users to navigate the website and move from one page to another for access to more information. 
+* **Header Logo** – Exists on every page aiming to promote brand awareness. Clicking on the logo will return the users to the Home page as they expect. 
+* **Header Navigation Bar** – Exists on every page to allow users to navigate the website and move from one page to another for access to more information. 
 * [About Page](https://tnamdarian.github.io/NamaStay/index.html) – is about the website, ethos, and testimonials. 
 * Banner Photo – Exists on the About page accompanied by a short line about the website and a call-to-action button.   
 * [Retreats Page](https://tnamdarian.github.io/NamaStay/retreats.html) – It showcases a list of retreats items. Each item is clickable directing users to each retreat’s website and can be viewed in a new page. Also when users hover over each item, the location of the retreat will open in Google map. 
-* Google Map – Allows potential clients to view the location of each retreat in the UK’s map. 
-* Footer –  Exists on every page and contains the social media and icons which link the users to social media platforms. When the user hovers over each icon, the number of followers and subscribers will appear.  
-* Ethos – Exist on the About page to inform the users of the benefits of yoga retreats. 
-* Fictional Testimonials – Exist in the About page in a form of expanding cards to build trust amongst users. 
-* Call-to-Action Buttons – Exist on every page and invites potential clients to make the first contact with the organiser of retreats. 
-* FAQs – Exist on the Contact page aiming to answer some common questions that users may have. 
+* **Google Map** – Allows potential clients to view the location of each retreat in the UK’s map. 
+* **Footer** –  Exists on every page and contains the social media and icons which link the users to social media platforms. When the user hovers over each icon, the number of followers and subscribers will appear.  
+* **Ethos** – Exist on the About page to inform the users of the benefits of yoga retreats. 
+* **Fictional Testimonials** – Exist in the About page in a form of expanding cards to build trust amongst users. 
+* **Call-to-Action Buttons** – Exist on every page and invites potential clients to make the first contact with the organiser of retreats. 
+* **FAQs** – Exist on the Contact page aiming to answer some common questions that users may have. 
 * [Contact Page](https://tnamdarian.github.io/NamaStay/contact.html) – Provides a contact form. It allows the clients to send their request to make enquiries, register or book a retreat.
 
+# Features to Implement in future
+Due to time restraints, I was unable to include the following features but hope to implement them in a future release:
+* A blog to share educational articles and guides for added value. 
+* Live Chat app - To provide an instant connection between the user and organiser with high visibility on the site. 
+* Option to choose the language of the website - As the developer’s second language is Farsi, this would allow Farsi speaking visitors to the website to view it in their native language. 
+* Add a download button for a white paper for digital marketing purposes and building an email list in the future. 
+* A booking and payment to be added to the website. 
+* A search button to be added so users can put their desired location and search it on the website. 
+* Allow the website to use user’s location. 
 
+# Technologies Used
+This project uses HTML, CSS and JavaScript programming languages.
+-	[Figma](https://balsamiq.cloud/sxrt5co/pf4f2oo) I used Balsamiq, the rapid low-fidelity UI wireframing tool to sketch the structure of the website layout and its pages following best UX practices.
+-	[Gitpod](https://gitpod.io/workspaces) - The developer used Gitpod to write the code to builds the website.
+-	[GitHub](https://github.com/) - The project used GitHub to host my code that was created and pushed from GitPod.
+-	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
+-   [FontAwesome](https://fontawesome.com/) - The projects uses a few icons from FontAwesome to make the websites less wordy and more visually appealing. 
+-	[Google Fonts](https://fonts.google.com/) The project uses Google fonts to style the website fonts.
+-   [Tiny-PNG](https://tinypng.com/) I used tinypng for big images up to 5M needed to be compressed to improve the website's loading time. 
+-	[Webaim.org](https://webaim.org/) The Webaim was used to test colour contrast on the project.
+-	[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) The W3C Markup Validation Service checked the markup validity of Web documents in HTML.
+-	[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) W3C CSS Validation Service was used to check the validity of my CSS in the project.
+-	[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)I used WAVE to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
 
 
