@@ -185,6 +185,23 @@ This project uses HTML, CSS and JavaScript programming languages.
     - The **phone number** and **email address** of the organiser has been shared in the footer on every page.
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
 
+## Code validation 
+I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C Markup Validation](https://validator.w3.org/#validate_by_input) to check the validity of the website code.
+
+Several issues were identified on **W3C Markup Validation**. 
+
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-1.png)
+
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-2.png)
+
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-3.png)
+
+After I rectified the issue, no further errors were picked. 
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-final.png)
+
+No errors were identified in the CSS code by **W3C CSS validation**. 
+
+![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/css-validation.png)
 
 
 
