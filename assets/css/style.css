@@ -728,3 +728,71 @@ footer .social-media {
         left: 5px;
     }
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 369px) {
+    .img {
+        min-height: 200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .retreat img {
+        margin-left: 0;
+    }
+
+    .btn-retreat {
+        margin-right: 0;
+    }
+
+    .retreat h3 {
+        margin: 100px 60px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .logo h1 {
+        font-size: 2.0rem;
+        font-weight: 900;
+    }
+
+    .menu-toggle {
+        left: 19rem;
+    }
+
+    .active .nav-left {
+        width: 75%;
+    }
+}
+
+/* Small mobile screens */
+
+@media screen and (min-width: 370px) and (max-width: 425px) {
+    .img {
+        min-height: 200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .retreat img {
+        margin-left: 0;
+    }
+}
+
+/* Mid mobile - Large mobile screens */
+@media screen and (min-width: 426px) and (max-width: 520px) {}
+
+/* Small tablet screens */
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 767px) {}
+
+
+/* Tablet screens */
+@media screen and (min-width: 768px) {}
+
+/* Desktop screens */
+@media screen and (min-width: 1024px) {}
