@@ -209,7 +209,13 @@ The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used t
 ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-1.png). 
 ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-2.png). 
 
+## COMPATIBILITY
+To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
 
+* Chrome
+* Edge
+* Firefox
+* Safari
 
 
 # Further testing
@@ -218,10 +224,10 @@ I asked my friends and family to click on the deployed link on their devices esp
 # Deployment 
 This project was developed using [Gitpod](https://gitpod.io/workspaces), committed to git and pushed to GitHub using git commands. 
 
-To deploy this page to **GitHub Pages** from its [GitHub repository](https://github.com/TNamdarian/saranamdarian), the following steps were taken:
+To deploy this page to **GitHub Pages** from its [GitHub repository]( https://tnamdarian.github.io/NamaStay/), the following steps were taken:
 
 1. Log into [GitHub](https://github.com/).
-2. From the list of repositories on the screen, **select saranamdarian**.
+2. From the list of repositories on the screen, **select NamaStay**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
 5. Under Source click the drop-down menu labelled None and select **Master Branch**. Then **Save** it. 
@@ -245,4 +251,30 @@ To deploy this page to **GitHub Pages** from its [GitHub repository](https://git
 - Change the current working directory to the location where you want the cloned directory.
 - Type 'git clone', and then paste the URL you copied earlier.
 - Press Enter to create your local clone.
+
+# Credits
+## Content
+The texts and links to retreats for all the pages have been taken from the following pages:  
+* [IKARA]( https://www.ikarayoga.com/fqa/)
+* [The Caribou](https://www.thecaribou.com/activity-adventure-holidays/best-weekend-yoga-retreats-uk-334609)
+
+
+## Media 
+Since this is a fictional website I decided to use illustarations to make it more fun and impersonal. 
+* The illustrations were obtained from: 
+[Iconscout](https://iconscout.com/)
+[dribble.com](https://dribbble.com/)
+[uplabs.com](https://www.uplabs.com/)
+[creativevip.net](https://creativevip.net/)
+
+
+## Code 
+* 
+
+# Acknowledgement 
+I decided to develop this website for personal reasons and my passion for yoga. I took aspiration for this site from the following websites in terms of content, application and design: 
+* [reviewmyretreat.com](https://www.reviewmyretreat.com/)
+* [bookyogaretreats.com](https://www.bookyogaretreats.com/)
+* Huge thanks to my mentor [Guido Cecilio Garcia Bernal](https://github.com/guidocecilio) guided me throughout this project.
+
 
