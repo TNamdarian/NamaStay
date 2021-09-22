@@ -137,18 +137,18 @@ This project uses HTML, CSS and JavaScript programming languages.
 ## Testing client stories from UX section of README.md
 1.	As a user, I want to easily navigate the site to find my ideal yoga retreat. 
     - The user can navigate through the website using the navbar **menu** on top right corner of the page. When clicked, it opens a navbar containing the menu items and contact information.  
-- The **logo** links the user back to the **About Page**. 
+    - The **logo** links the user back to the **About Page**. 
 
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
 
 
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/header1.png)
 
-    - The **Ethos** on **About Page** provide more information about the benewfits of retreats. 
+    - The **Ethos** on **About Page** provide more information about the benefits of retreats. 
 
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
 
-    - The **call-to-action button** takes the users to the **Retreats Page** where they can get more information on retreats. 
+    - The **call-to-action button** takes the users to the **About Page** where they can get more information on retreats. 
 
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/banner.png)
 
@@ -162,14 +162,9 @@ This project uses HTML, CSS and JavaScript programming languages.
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
 
 3.	As a visitor, I would like to learn more about the yoga retreats via their landing pages. 
-    - The **Ethos** on **About Page** gives some facts about retreats. 
-
-   ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
-
     - The list of retreats on **Retreats Page** links users to external websites for more information. 
 
    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/map.png)
-
 
     
 4.	As a user, I would like to know how to contact the organizer to book a retreat.
@@ -180,10 +175,10 @@ This project uses HTML, CSS and JavaScript programming languages.
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/contact-form.png)
 
 6.	As a potential client, I would like to learn more about the organiser and get validation via their social media. It is more reassuring to trust businesses who have a solid follower base.  
-     - The **footer** provides links to the designer's **social media** platforms. 
+    - The **footer** provides links to the designer's **social media** platforms. 
 
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer1.png)
+    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer1.png)
     ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer.png)
     
 7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the organiser.
