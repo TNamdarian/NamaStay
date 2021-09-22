@@ -95,6 +95,21 @@ The contact page features the **FAQs**. Each question is wrapped in a box. when 
 Then, there is a **Contact Form** which user can fill up to reach the organiser to make enquires, book or register a retreat. 
 The bottom of the form contains a **Submit!** button.  
 
+# Existing Features 
+* Header Logo – Exists on every page aiming to promote brand awareness. Clicking on the logo will return the users to the Home page as they expect. 
+* Header Navigation Bar – Exists on every page to allow users to navigate the website and move from one page to another for access to more information. 
+* [About Page](https://tnamdarian.github.io/NamaStay/index.html) – is about the website, ethos, and testimonials. 
+* Banner Photo – Exists on the About page accompanied by a short line about the website and a call-to-action button.   
+* [Retreats Page](https://tnamdarian.github.io/NamaStay/retreats.html) – It showcases a list of retreats items. Each item is clickable directing users to each retreat’s website and can be viewed in a new page. Also when users hover over each item, the location of the retreat will open in Google map. 
+* Google Map – Allows potential clients to view the location of each retreat in the UK’s map. 
+* Footer –  Exists on every page and contains the social media and icons which link the users to social media platforms. When the user hovers over each icon, the number of followers and subscribers will appear.  
+* Ethos – Exist on the About page to inform the users of the benefits of yoga retreats. 
+* Fictional Testimonials – Exist in the About page in a form of expanding cards to build trust amongst users. 
+* Call-to-Action Buttons – Exist on every page and invites potential clients to make the first contact with the organiser of retreats. 
+* FAQs – Exist on the Contact page aiming to answer some common questions that users may have. 
+* [Contact Page](https://tnamdarian.github.io/NamaStay/contact.html) – Provides a contact form. It allows the clients to send their request to make enquiries, register or book a retreat.
+
+
 
 
 
