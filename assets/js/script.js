@@ -189,6 +189,14 @@ function initMap() {
     }
 }
 
+const markerLinkedList = document.querySelectorAll('.marker-linked');
+markerLinkedList.forEach((markerLinked) => {
+    markerLinked.addEventListener('mouseover', (event) => {
+        console.log(event.target);
+        google.maps.event.trigger(exportedMarkers[+event.target.dataset.markerIndex], 'click');
+    });
+});
+
 // ..................... Email functionality 
 function sendMail(contactForm) {
     emailjs.send("gmail", "NamaStay", {
@@ -215,7 +223,7 @@ counters.forEach((counter) => {
 
 const counterContainers = document.querySelectorAll('.counter-container');
 counterContainers.forEach((container) => {
-    container.addEventListener('mouseenter', () => {
+    container.addEventListener('click', () => {
         const counter = container.querySelector('.counter');
         // Set up the target
         const updateCounter = () => {
@@ -246,13 +254,5 @@ toggles.forEach(toggle => {
     toggle.addEventListener('click', () => {
         // ..................... Toogle the active class on the parent node 
         toggle.parentNode.classList.toggle('active');
-    });
-});
-
-const markerLinkedList = document.querySelectorAll('.marker-linked');
-markerLinkedList.forEach((markerLinked) => {
-    markerLinked.addEventListener('mouseover', (event) => {
-        console.log(event.target);
-        google.maps.event.trigger(exportedMarkers[+event.target.dataset.markerIndex], 'click');
     });
 });
