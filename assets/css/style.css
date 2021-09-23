@@ -780,7 +780,7 @@ footer .social-media {
     .logo {
         padding: 0;
         left: 0 !important;
-        left: 0px;
+        margin-left: 10px;
     }
 
     .logo h1 {
@@ -794,6 +794,14 @@ footer .social-media {
 
     .active .nav-left {
         width: 75%;
+    }
+
+    .banner img {
+        margin-left: 100px;
+    }
+
+    .motto {
+        left: 0;
     }
 
 }
@@ -822,12 +830,11 @@ footer .social-media {
 
     .logo {
         padding: 0;
-        left: 40px;
         left: 0;
     }
 
     .logo h1 {
-        font-size: 2.0rem;
+        font-size: 34px;
         font-weight: 900;
     }
 
@@ -870,7 +877,31 @@ footer .social-media {
 
 
 /* Tablet screens */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .banner {
+        margin-bottom: 150px;
+    }
+
+    .menu-toggle {
+        left: 900px;
+    }
+
+    .img {
+        min-height: 200px;
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .retreat img {
+        margin-left: 0px !important;
+    }
+
+    .retreat ul {
+        margin-top: 0px;
+        padding-left: 0;
+    }
+}
 
 /* Desktop screens */
 @media screen and (min-width: 1024px) {}
