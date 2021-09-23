@@ -223,7 +223,7 @@ counters.forEach((counter) => {
 
 const counterContainers = document.querySelectorAll('.counter-container');
 counterContainers.forEach((container) => {
-    container.addEventListener('click', () => {
+    container.addEventListener('mouseenter', () => {
         const counter = container.querySelector('.counter');
         // Set up the target
         const updateCounter = () => {
