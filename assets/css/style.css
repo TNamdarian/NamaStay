@@ -877,7 +877,7 @@ footer .social-media {
 
 
 /* Tablet screens */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .banner {
         margin-bottom: 150px;
     }
@@ -922,7 +922,7 @@ footer .social-media {
 }
 
 /* iPad Pro screens */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .banner {
         margin-bottom: 150px;
     }
