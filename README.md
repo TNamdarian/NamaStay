@@ -190,18 +190,22 @@ I used [W3C CSS validation](https://jigsaw.w3.org/css-validator/#validate_by_inp
 
 Several issues were identified on **W3C Markup Validation**. 
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-1.png)
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-1.png)
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-2.png)
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-2.png)
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-3.png)
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-3.png)
 
 After I rectified the issue, no further errors were picked. 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-final.png)
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/html-validation-final.png)
 
 No errors were identified in the CSS code by **W3C CSS validation**. 
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/css-validation.png)
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/css-validation.png)
+
+I used [JSHint](https://jshint.com/) to check the validity of the JavaScript code.
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/js-validation.png)
+
 
 ## Color Contrast 
 The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to test for colour contrast on the project.
