@@ -883,14 +883,15 @@ footer .social-media {
     }
 
     .menu-toggle {
-        left: 900px;
+        left: 700px;
     }
 
     .img {
+        margin-left: 0 !important;
         min-height: 200px;
         width: 100%;
         height: auto;
-        margin-left: 0;
+        padding-top: 100px;
     }
 
     .retreat img {
@@ -901,7 +902,47 @@ footer .social-media {
         margin-top: 0px;
         padding-left: 0;
     }
+
+    .retreat h2 {
+        margin-left: 60px;
+    }
+
+    .testimonial {
+        height: 50vh;
+        margin: 5px;
+    }
+
+    .faq-toggle {
+        right: 10px;
+    }
+
+    .active .nav-left {
+        width: 75%;
+    }
 }
 
-/* Desktop screens */
-@media screen and (min-width: 1024px) {}
+/* iPad Pro screens */
+@media screen and (min-width: 1024px) {
+    .banner {
+        margin-bottom: 150px;
+    }
+
+    .menu-toggle {
+        left: 900px;
+    }
+
+    .img {
+        margin-left: 0 !important;
+        min-height: 200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .retreat img {
+        margin-left: 0px !important;
+    }
+
+    .active .nav-left {
+        width: 65%;
+    }
+}
