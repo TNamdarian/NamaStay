@@ -139,32 +139,32 @@ This project uses HTML, CSS and JavaScript programming languages.
     - The user can navigate through the website using the navbar **menu** on top right corner of the page. When clicked, it opens a navbar containing the menu items and contact information.  
     - The **logo** links the user back to the **About Page**. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/navbar.png)
 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/header1.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/header1.png)
 
     - The **Ethos** on **About Page** provide more information about the benefits of retreats. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/ethos.png)
 
     - The **call-to-action button** takes the users to the **About Page** where they can get more information on retreats. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/banner.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/banner.png)
 
     - The **call-to-action button** takes the users to the **Contact Page** where they can contact the organiser to get more information. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
 
 
 2.	As an owner of a yoga retreat, I would like to find out if this website is trustworthy and reputable by seeing what the previous clients say about them so I can collaborate with them. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/testimonials.png)
 
 3.	As a visitor, I would like to learn more about the yoga retreats via their landing pages. 
     - The list of retreats on **Retreats Page** links users to external websites for more information. 
 
-   ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/map.png)
+   ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/map.png)
 
     
 4.	As a user, I would like to know how to contact the organizer to book a retreat.
@@ -172,14 +172,14 @@ This project uses HTML, CSS and JavaScript programming languages.
  
     - In **Contact Page**, fill up a form and book a retreat. 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/contact-form.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/contact-form.png)
 
 6.	As a potential client, I would like to learn more about the organiser and get validation via their social media. It is more reassuring to trust businesses who have a solid follower base.  
     - The **footer** provides links to the designer's **social media** platforms. 
 
 
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer1.png)
-    ![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer1.png)
+    ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/footer.png)
     
 7.	As a returning visitor to the website, I want to be able to find the contact page easily to reach the organiser.
     - The **phone number** and **email address** of the organiser has been shared in the footer on every page.
@@ -205,13 +205,13 @@ No errors were identified in the CSS code by **W3C CSS validation**.
 
 I used [JSHint](https://jshint.com/) to check the validity of the JavaScript code.
 ![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/js-validation.png)
-
+There were no errors but some warnings only. 
 
 ## Color Contrast 
 The [Color Contrast Accessibility Validator](https://color.a11y.com/) was used to test for colour contrast on the project.
 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-1.png). 
-![alt text]( https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-2.png). 
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-1.png). 
+![alt text](https://github.com/TNamdarian/NamaStay/blob/main/assets/images/readme-images/colour-contrast-2.png). 
 
 ## COMPATIBILITY
 To ensure a broad range of users can successfully view/use the site, I tested it across all major browsers in both desktop and mobile configuration.
@@ -220,7 +220,6 @@ To ensure a broad range of users can successfully view/use the site, I tested it
 * Edge
 * Firefox
 * Safari
-
 
 # Further testing
 I asked my friends and family to click on the deployed link on their devices especially iPads and 17" and bigger laptops which I do not personally own. I added further bootstrap padding and margin and CSS media queries to make the website responsive on all devices. 
@@ -262,14 +261,12 @@ The texts and links to retreats for all the pages have been taken from the follo
 * [IKARA]( https://www.ikarayoga.com/fqa/)
 * [The Caribou](https://www.thecaribou.com/activity-adventure-holidays/best-weekend-yoga-retreats-uk-334609)
 
-
 ## Media 
 Since this is a fictional website, I decided to use illustarations to make it more fun and impersonal. The illustrations were obtained from: 
 * [Iconscout](https://iconscout.com/)
 * [dribble.com](https://dribbble.com/)
 * [uplabs.com](https://www.uplabs.com/)
 * [creativevip.net](https://creativevip.net/)
-
 
 ## Code 
 * 
