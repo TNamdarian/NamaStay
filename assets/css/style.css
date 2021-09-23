@@ -632,7 +632,6 @@ footer .social-media {
     align-items: center;
     overflow: hidden;
     margin: 0;
-
 }
 
 .social-media .icon {
@@ -674,12 +673,15 @@ footer .social-media {
 }
 
 @media only screen and (max-width: 540px) {
+    .logo {
+        left: 0;
+    }
+
     .motto {
         left: 30px;
         bottom: 10px;
         margin-bottom: 10px;
         top: 350px;
-
     }
 
     .banner {
@@ -756,7 +758,7 @@ footer .social-media {
 
 /* Media Queries */
 
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 375px) {
     .img {
         min-height: 200px;
         width: 100%;
@@ -777,6 +779,8 @@ footer .social-media {
 
     .logo {
         padding: 0;
+        left: 0 !important;
+        left: 0px;
     }
 
     .logo h1 {
@@ -796,7 +800,7 @@ footer .social-media {
 
 /* Small mobile screens */
 
-@media screen and (min-width: 370px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
     .img {
         min-height: 200px;
         width: 100%;
@@ -819,6 +823,7 @@ footer .social-media {
     .logo {
         padding: 0;
         left: 40px;
+        left: 0;
     }
 
     .logo h1 {
