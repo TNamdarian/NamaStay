@@ -698,16 +698,17 @@ footer .social-media {
     }
 
     .large {
-        font-size: 18px;
-        margin-left: 4px;
+        font-size: 24px;
+        margin-left: 0px;
     }
 
     .small {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .nav-left ul {
         height: 0;
+        padding-left: 10px;
     }
 
     .nav-link.active {
@@ -786,6 +787,7 @@ footer .social-media {
 
     .logo {
         padding: 0;
+        left: 40px;
     }
 
     .logo h1 {
