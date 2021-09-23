@@ -674,13 +674,6 @@ footer .social-media {
 }
 
 @media only screen and (max-width: 540px) {
-    .logo {
-        padding-left: 50px;
-        font-size: 24px;
-        padding-top: 10px;
-        padding-left: 30px;
-    }
-
     .motto {
         left: 30px;
         top: 300px;
@@ -710,7 +703,7 @@ footer .social-media {
     }
 
     .small {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .nav-left ul {
@@ -766,6 +759,7 @@ footer .social-media {
     .active .nav-left {
         width: 75%;
     }
+
 }
 
 /* Small mobile screens */
@@ -783,10 +777,11 @@ footer .social-media {
 
     .btn-retreat {
         margin-right: 0;
+        margin-bottom: 30px;
     }
 
     .retreat h3 {
-        margin: 100px 60px;
+        margin: 20px 60px;
     }
 
     .logo {
@@ -804,6 +799,26 @@ footer .social-media {
 
     .active .nav-left {
         width: 65%;
+    }
+
+    .retreat ul {
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .retreat ul li a {
+        font-size: 14px;
+    }
+
+    #map {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .retreat h2 {
+        margin-top: 200px;
+        margin-bottom: 0;
     }
 }
 
