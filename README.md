@@ -63,10 +63,7 @@ To achieve the strategic goals, I included the following features in the website
 The website consists of three pages; About (introduces the aim of the website, benefits of yoga and testimonials), Retreats (including the map locating various retreats), and Contact (including FAQs and a contact form). All pages have the same logo, nav bar and footer. 
 
 ### Wireframe Mockups: 
-* [Home]()
-* [Retreats]()
-* [Contact]()
-
+* [NamaStay](https://www.figma.com/file/Nd5rLuatagmYg4Tf5cZnm9/NamaStay?node-id=20%3A16)
 
 ## Surface 
 The logo and a toggled menu bar are positions in the left- and right-hand sides of the website in the header incorporating dark green colour. When the menu icon is clicked, it toggles and opens a green and cream navbar on the left side of the page. The earthy colours throughout the website have been chosen to represent nature, serenity, pureness, and energy.  I have chosen dark typography yet bold styles to show strength. The light green and orange colours have been taken from the banner image on the About page for call-to-action buttons, and social media icons. The combination of white, cream, light pink, light blue and dark green colours convey a sense of positivity, energy, and freshness. 
@@ -121,7 +118,7 @@ Due to time restraints, I was unable to include the following features but hope 
 
 # Technologies Used
 This project uses HTML, CSS and JavaScript programming languages.
--	[Figma]( https://www.figma.com/) I used figma, Figma a vector graphics editor and prototyping tool which is primarily web-based to wireframe the structure of the website layout and its pages following best UX practices.
+-	[Figma]( https://www.figma.com/) I used Figma, a vector graphics editor and prototyping tool which is primarily web-based to wireframe the structure of the website layout and its pages following best UX practices.
 -	[Gitpod](https://gitpod.io/workspaces) - The developer used Gitpod to write the code to builds the website.
 -	[GitHub](https://github.com/) - The project used GitHub to host my code that was created and pushed from GitPod.
 -	[Bootstarp5](https://getbootstrap.com/) - The project uses Bootstrap5 (BootstrapCDN and components) to simplify the structure of the website and make the website responsive across various platforms.
