@@ -21,6 +21,13 @@
     text-align: var(--center);
 }
 
+#alert {
+    position: fixed;
+    top: 5px;
+    margin: auto 50%;
+    transform: translateX(-50%);
+}
+
 /* -------------------------------------------------- Root Variables*/
 :root {
     --Mulish: 'Mulish', sans-serif;
@@ -50,6 +57,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    height: 0;
 }
 
 /* ---------------------------------- Nav */
@@ -212,18 +223,18 @@ nav.active {
 }
 
 /* ---------------------------------- Logo */
-.logo {
+.logo a {
     position: absolute;
     top: 30px;
     left: 70px;
     z-index: 100;
     color: var(--darkgreen);
-    pointer-events: none;
     transition: 1s;
     padding-left: 0;
+    text-decoration: none;
 }
 
-.logo.active {
+.logo.active h1 a {
     color: var(--orange);
     position: fixed;
 }
@@ -980,5 +991,9 @@ footer .social-media {
 
     .active .nav-left {
         width: 65%;
+    }
+
+    .testimonial {
+        border-radius: 15px;
     }
 }

@@ -194,7 +194,6 @@ function initMap() {
 const markerLinkedList = document.querySelectorAll('.marker-linked');
 markerLinkedList.forEach((markerLinked) => {
     markerLinked.addEventListener('mouseover', (event) => {
-        console.log(event.target);
         google.maps.event.trigger(exportedMarkers[+event.target.dataset.markerIndex], 'click');
     });
 });
@@ -208,13 +207,33 @@ function sendMail(contactForm) {
         })
         .then(
             function(response) {
-                console.log("SUCCESS", response);
+                notification("Thank you! Your message has been sent successfuly.");
             },
             function(error) {
-                console.log("FAILED", error);
+                notification("I am sorry! Something wrong happends, please try again!", "danger");
+                console.error(error);
             }
         );
     return false; // To block from loading a new page
+}
+// Set up notifications
+function notification(message, alertType = "success") {
+    let alert = document.getElementById('alert');
+    if (alert) {
+        alert.remove();
+    }
+
+    let wrapper = document.createElement("div");
+    wrapper.setAttribute("id", "alert");
+    wrapper.setAttribute("role", "alert");
+    wrapper.classList = `alert alert-${alertType} alert-dismissible fade show`;
+    wrapper.innerHTML = `
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        `;
+    alert = document.getElementById('alert');
+    const bsAlert = new bootstrap.Alert(alert);
+    document.body.appendChild(wrapper);
 }
 
 // ..................... Incrementing counters 
