@@ -788,9 +788,9 @@ footer .social-media {
         font-weight: 900;
     }
 
-    .menu-toggle {
+    /* .menu-toggle {
         left: 19rem;
-    }
+    } */
 
     .active .nav-left {
         width: 75%;
@@ -836,10 +836,11 @@ footer .social-media {
     .logo h1 {
         font-size: 34px;
         font-weight: 900;
+        padding: 12px;
     }
 
     .menu-toggle {
-        left: 19rem;
+        left: 20rem;
     }
 
     .active .nav-left {
@@ -877,14 +878,14 @@ footer .social-media {
 
 
 /* Tablet screens */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .banner {
         margin-bottom: 150px;
     }
 
-    .menu-toggle {
+    /* .menu-toggle {
         left: 700px;
-    }
+    } */
 
     .img {
         margin-left: 0 !important;
@@ -922,14 +923,14 @@ footer .social-media {
 }
 
 /* iPad Pro screens */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .banner {
         margin-bottom: 150px;
     }
 
-    .menu-toggle {
+    /* .menu-toggle {
         left: 900px;
-    }
+    } */
 
     .img {
         margin-left: 0 !important;
