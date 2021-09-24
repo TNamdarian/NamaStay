@@ -404,8 +404,27 @@ nav.active {
     transition: opacity 0.3s ease-in 0.4s;
 }
 
-.panel .card-text {}
+.testimonial-img1 {
+    background-image: url('https://cdn.dribbble.com/users/3585651/screenshots/9899589/frame_2_4x.png');
+}
 
+.testimonial-img2 {
+    background-image: url('https://assets.materialup.com/uploads/32077f8e-c1a2-4309-ac2b-c8071853a363/preview.png');
+}
+
+.testimonial-img3 {
+    background-image: url('https://creativevip.net/resource-images/12-yoga-poses-icon-illustrations-3.png');
+}
+
+.testimonial-img4 {
+    background-image: url('https://cdn.dribbble.com/users/3585651/screenshots/9899644/media/184be74a205341c7ff1d6c351e6590c9.png?compress=1&resize=1200x900');
+}
+
+.testimonial-img5 {
+    background-image: url('https://creativevip.net/resource-images/12-yoga-poses-icon-illustrations-4.png');
+}
+
+.panel .card-text {}
 
 @media(max-width: 480px) {
     .panel {
@@ -813,6 +832,9 @@ footer .social-media {
         left: 0;
     }
 
+    .testimonial {
+        border-radius: 15px;
+    }
 }
 
 /* Small mobile screens */
@@ -877,6 +899,10 @@ footer .social-media {
         margin-top: 200px;
         margin-bottom: 0;
     }
+
+    .testimonial {
+        border-radius: 15px;
+    }
 }
 
 /* Mid mobile - Large mobile screens */
@@ -928,6 +954,10 @@ footer .social-media {
 
     .active .nav-left {
         width: 75%;
+    }
+
+    .testimonial {
+        border-radius: 15px;
     }
 }
 

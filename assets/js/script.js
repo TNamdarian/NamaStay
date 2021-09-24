@@ -42,14 +42,16 @@ const testimonials = document.querySelectorAll('.testimonial');
 // ..................... Add an event listener  
 testimonials.forEach((testimonial) => {
     testimonial.addEventListener('click', () => {
-        removeActiveClasses();
-        testimonial.classList.add('active');
+        removeActiveClasses(testimonial);
+        testimonial.classList.toggle('active');
     });
 });
 
-function removeActiveClasses() {
+function removeActiveClasses(currentTestimonial) {
     testimonials.forEach(testimonial => {
-        testimonial.classList.remove('active');
+        if (currentTestimonial !== testimonial) {
+            testimonial.classList.remove('active');
+        }
     });
 }
 
