@@ -273,7 +273,7 @@ Since this is a fictional website, I decided to use illustarations to make it mo
 - [The Complete 2021 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp)
 I also saught guidance by serching answers in: 
 - [Google Map API Documentations](https://developers.google.com/maps/documentation/)
-- [Stacl Overflow](https://stackoverflow.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 
 # Acknowledgement 
 I decided to develop this website for personal reasons and my passion for yoga. I took aspiration for this site from the following websites in terms of content, application and design: 
