@@ -709,21 +709,8 @@ footer .social-media {
         left: 0;
     }
 
-    .motto {
-        left: 30px;
-        bottom: 10px;
-        margin-bottom: 10px;
-        top: 350px;
-    }
-
     .banner {
         margin-bottom: 70px;
-    }
-
-    .btn-begin {
-        font-size: 12px;
-        top: 350px;
-        left: 30px;
     }
 
     .banner img {
@@ -800,13 +787,12 @@ footer .social-media {
 /* Media Queries for small mobile screens */
 
 @media screen and (max-width: 375px) {
-    .img {
+
+    .img1,
+    .img2 {
         min-height: 200px;
         width: 100%;
         height: auto;
-    }
-
-    .retreat img {
         margin-left: 0;
     }
 
@@ -852,13 +838,10 @@ footer .social-media {
 @media screen and (min-width: 375px) and (max-width: 425px) {
 
     .img1,
-    img2 {
+    .img2 {
         min-height: 200px;
         width: 100%;
         height: auto;
-    }
-
-    .retreat img {
         margin-left: 0;
     }
 
@@ -916,9 +899,23 @@ footer .social-media {
 }
 
 /* Tablet screens */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .banner {
-        margin-bottom: 100px;
+        margin-bottom: 150px;
+    }
+
+    .motto {
+        top: 400px;
+    }
+
+    .btn-begin {
+        top: 400px;
+    }
+
+    .btn-begin {
+        position: relative;
+        left: 60px;
+        top: 420px;
     }
 
     .img1 {
@@ -936,17 +933,13 @@ footer .social-media {
         height: auto;
     }
 
-    .retreat img {
-        margin-left: 0px !important;
-    }
-
     .retreat ul {
         margin-top: 0px;
         padding-left: 0;
     }
 
     .retreat h2 {
-        margin-left: 60px;
+        margin-left: 5px;
     }
 
     .faq-toggle {
@@ -972,14 +965,10 @@ footer .social-media {
         margin-bottom: 0px;
     }
 
-    .img {
+    .img1 {
         margin-left: 0 !important;
         min-height: 200px;
         width: 100%;
         height: auto;
-    }
-
-    .retreat img {
-        margin-left: 0px !important;
     }
 }
