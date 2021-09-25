@@ -811,9 +811,9 @@ footer .social-media {
         margin-left: 10px;
     }
 
-    .logo h1 {
-        font-size: 2.0rem;
-        font-weight: 900;
+    .logo h1 a {
+        font-size: 40px;
+        left: 30px;
     }
 
     .active .nav-left {
@@ -860,8 +860,6 @@ footer .social-media {
     }
 
     .logo h1 {
-        font-size: 34px;
-        font-weight: 900;
         padding: 12px;
     }
 
