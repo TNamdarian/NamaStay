@@ -268,10 +268,10 @@ Since this is a fictional website, I decided to use illustarations to make it mo
 * [creativevip.net](https://creativevip.net/)
 
 ## Code 
-*  I have implemented the knowledge I've gained from the courses I've been doing along the Diploma with Code Institute to supplement my learning. 
+*  I have implemented the knowledge I've gained from the courses I've been doing along the Diploma with Code Institute to supplement my learning. The designs for incrementing counters, animated navbar, expanding cards and FAQ sections are the projects I learn from the Udemy courses and I personalised and improved them for this project. 
 - [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/)
 - [The Complete 2021 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-I also saught guidance by serching answers in: 
+I also saught guidance by serching answers on: 
 - [Google Map API Documentations](https://developers.google.com/maps/documentation/)
 - [Stack Overflow](https://stackoverflow.com/)
 
