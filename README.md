@@ -99,7 +99,7 @@ The bottom of the form contains a **Submit!** button.
 * Banner Photo – Exists on the About page accompanied by a short line about the website and a call-to-action button.   
 * [Retreats Page](https://tnamdarian.github.io/NamaStay/retreats.html) – It showcases a list of retreats items. Each item is clickable directing users to each retreat’s website and can be viewed in a new page. Also when users hover over each item, the location of the retreat will open in Google map. 
 * **Google Map** – Allows potential clients to view the location of each retreat in the UK’s map. 
-* **Footer** –  Exists on every page and contains the social media icons which link the users to social media platforms. When the user hovers over each icon, the number of followers and subscribers will appear.  
+* **Footer** –  Exists on every page and contains the social media icons which link the users to social media platforms. When the user hovers over each icon, the number of followers and subscribers will appear. In smaller divices, the users needs to click on the numbers.  
 * **Ethos** – Exist on the About page to inform the users of the benefits of yoga retreats. 
 * **Fictional Testimonials** – Exist in the About page in a form of expanding cards to build trust amongst users. 
 * **Call-to-Action Buttons** – Exist on every page and invites potential clients to make the first contact with the organiser of retreats. 
@@ -229,7 +229,7 @@ This project was developed using [Gitpod](https://gitpod.io/workspaces), committ
 To deploy this page to **GitHub Pages** from its [GitHub repository]( https://tnamdarian.github.io/NamaStay/), the following steps were taken:
 
 1. Log into [GitHub](https://github.com/).
-2. From the list of repositories on the screen, elect **sNamaStay**.
+2. From the list of repositories on the screen, select **NamaStay**.
 3. From the menu items near the top of the page, select **Settings**.
 4. Scroll down to the **GitHub Pages** section.
 5. Under Source click the drop-down menu labelled None and select **Master Branch**. Then **Save** it. 
