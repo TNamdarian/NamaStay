@@ -21,12 +21,6 @@
     text-align: var(--center);
 }
 
-#alert {
-    position: fixed;
-    top: 5px;
-    margin: auto 50%;
-    transform: translateX(-50%);
-}
 
 /* -------------------------------------------------- Root Variables*/
 :root {
@@ -545,6 +539,14 @@ textarea#floatingTextarea2.form-control {
     background-color: var(--pink);
 }
 
+#alert {
+    position: fixed;
+    top: 5px;
+    margin: auto 50%;
+    transform: translateX(-50%);
+    width: 60vh
+}
+
 /* -------------------- Cream section - Contact page */
 
 .img3 {
@@ -827,10 +829,6 @@ footer .social-media {
         font-weight: 900;
     }
 
-    /* .menu-toggle {
-        left: 19rem;
-    } */
-
     .active .nav-left {
         width: 75%;
     }
@@ -926,9 +924,9 @@ footer .social-media {
 
 
 /* Tablet screens */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .banner {
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
 
     .img1 {
@@ -978,6 +976,10 @@ footer .social-media {
         margin-bottom: 150px;
     }
 
+    .banner {
+        margin-bottom: 0px;
+    }
+
     .img {
         margin-left: 0 !important;
         min-height: 200px;
@@ -987,13 +989,5 @@ footer .social-media {
 
     .retreat img {
         margin-left: 0px !important;
-    }
-
-    .active .nav-left {
-        width: 65%;
-    }
-
-    .testimonial {
-        border-radius: 15px;
     }
 }

@@ -207,10 +207,10 @@ function sendMail(contactForm) {
         })
         .then(
             function(response) {
-                notification("Thank you! Your message has been sent successfuly.");
+                notification("Thank you! Your message has been sent successfully.");
             },
             function(error) {
-                notification("I am sorry! Something wrong happends, please try again!", "danger");
+                notification("Ooops! Something went wrong, please try again!", "danger");
                 console.error(error);
             }
         );
